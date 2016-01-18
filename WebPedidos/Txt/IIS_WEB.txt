@@ -1,0 +1,8 @@
+--IIS BACKUP E RESTORE
+--WINDOWS\SYSTEM32\INETSRV
+
+BACKUP
+appcmd add backup <backupname>
+
+RESTORE
+appcmd.exe restore backup backup_iis

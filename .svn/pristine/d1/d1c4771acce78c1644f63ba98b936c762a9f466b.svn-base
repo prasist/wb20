@@ -1,0 +1,560 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Data;
+
+using System.Text;
+
+
+namespace WebPedidos.WSClasses
+{
+    public class ClasseCliente: System.Web.UI.Page
+    {
+        ClasseBanco conn = new ClasseBanco();
+        StringBuilder strSql = new StringBuilder();
+
+        #region Definicoes 
+        
+        int _CodCli;
+        int _CLIE_TabPrecoPadrao;
+        string _RazSoc;
+        string _RefBancaria;
+        string _RefComercial;
+        string _RefContador;
+        string _RefBancaria2;
+        string _RefComercial2;
+        string _RefContador2;
+        string _RefBancaria3;
+        string _RefComercial3;
+        string _RefContador3; 
+        string _NomFan;
+        string _CGC_CPF;
+        string _RgCli;
+        string _EndCli;
+        string _Numero;
+        string _Complemento;
+        string _CidCli;
+        string _Bairro;
+        string _EstCli;
+        string _Cep;
+        string _TelCli;
+        string _Celular;
+        string _FaxCli;
+        string _RamCli;
+        string _Contato;
+        string _DatCad;
+        string _TipoCli;
+        string _Cliente;
+        string _Fornecedor;
+        string _Ativo;
+        string _Prospect;
+        int _IDCIDADES;
+        string _Email;
+        string _DtaBloq;
+        string _Obs1;
+
+        public string Obs1
+        {
+            get { return _Obs1; }
+            set { _Obs1 = value; }
+        }
+
+        public string DtaBloq
+        {
+            get { return _DtaBloq; }
+            set { _DtaBloq = value; }
+        }
+
+        public int CLIE_TabPrecoPadrao
+        {
+            get { return _CLIE_TabPrecoPadrao; }
+            set { _CLIE_TabPrecoPadrao = value; }
+        }
+
+        public int CodCli
+        {
+            get { return _CodCli; }
+            set { _CodCli = value; }
+        }
+
+        public string RefComercial
+        {
+            get { return _RefComercial; }
+            set { _RefComercial = value; }
+        }
+
+        public string RefComercial2
+        {
+            get { return _RefComercial2; }
+            set { _RefComercial2 = value; }
+        }
+        
+        public string RefComercial3
+        {
+            get { return _RefComercial3; }
+            set { _RefComercial3 = value; }
+        }
+
+        public string RefBancaria
+        {
+            get { return _RefBancaria; }
+            set { _RefBancaria = value; }
+        }
+
+        public string RefBancaria2
+        {
+            get { return _RefBancaria2; }
+            set { _RefBancaria2 = value; }
+        }
+
+        public string RefBancaria3
+        {
+            get { return _RefBancaria3; }
+            set { _RefBancaria3 = value; }
+        }
+
+        public string RefContador
+        {
+            get { return _RefContador; }
+            set { _RefContador = value; }
+        }
+
+        public string RefContador2
+        {
+            get { return _RefContador2; }
+            set { _RefContador2 = value; }
+        }
+
+        public string RefContador3
+        {
+            get { return _RefContador3; }
+            set { _RefContador3 = value; }
+        }
+
+        public string RazSoc
+        {
+            get { return _RazSoc; }
+            set { _RazSoc = value; }
+        }
+
+        public string NomFan
+        {
+            get { return _NomFan; }
+            set { _NomFan = value; }
+        }
+
+        public string CGC_CPF
+        {
+            get { return _CGC_CPF; }
+            set { _CGC_CPF = value; }
+        }
+
+        public string RgCli
+        {
+            get { return _RgCli; }
+            set { _RgCli = value; }
+        }
+
+        public string EndCli
+        {
+            get { return _EndCli; }
+            set { _EndCli = value; }
+        }
+
+        public string Numero
+        {
+            get { return _Numero; }
+            set { _Numero = value; }
+        }
+
+        public string Complemento
+        {
+            get { return _Complemento; }
+            set { _Complemento = value; }
+        }
+
+        public string CidCli
+        {
+            get { return _CidCli; }
+            set { _CidCli = value; }
+        }
+
+        public string Bairro
+        {
+            get { return _Bairro; }
+            set { _Bairro = value; }
+        }
+
+        public string EstCli
+        {
+            get { return _EstCli; }
+            set { _EstCli = value; }
+        }
+
+        public string Cep
+        {
+            get { return _Cep; }
+            set { _Cep = value; }
+        }
+
+        public string TelCli
+        {
+            get { return _TelCli; }
+            set { _TelCli = value; }
+        }
+
+        public string Celular
+        {
+            get { return _Celular; }
+            set { _Celular = value; }
+        }
+
+        public string FaxCli
+        {
+            get { return _FaxCli; }
+            set { _FaxCli = value; }
+        }
+
+        public string RamCli
+        {
+            get { return _RamCli; }
+            set { _RamCli = value; }
+        }
+
+        public string Contato
+        {
+            get { return _Contato; }
+            set { _Contato = value; }
+        }
+
+        public string DatCad
+        {
+            get { return _DatCad; }
+            set { _DatCad = value; }
+        }
+
+        public string TipoCli
+        {
+            get { return _TipoCli; }
+            set { _TipoCli = value; }
+        }
+
+        public string bCliente
+        {
+            get { return _Cliente; }
+            set { _Cliente = value; }
+        }
+
+        public string Fornecedor
+        {
+            get { return _Fornecedor; }
+            set { _Fornecedor = value; }
+        }
+
+        public string Ativo
+        {
+            get { return _Ativo; }
+            set { _Ativo = value; }
+        }
+
+        public string Prospect
+        {
+            get { return _Prospect; }
+            set { _Prospect = value; }
+        }
+
+        public string Email
+        {
+            get { return _Email; }
+            set { _Email = value; }
+        }
+
+        public int IDCIDADES
+        {
+            get { return _IDCIDADES; }
+            set { _IDCIDADES = value; }
+        }
+        #endregion
+
+        public void DadosCliente (int Codigo) {
+
+            strSql.Length = 0;
+
+            strSql.Append(" SELECT FiC_CodFrmPadrao, FiC_CodPrzPadrao, ENDCLI, NUMERO, CIDCLI, ESTCLI, CGC_CPF, CLIE_TABPRECOPADRAO, EMAIL, DtaBloq, TELCLI ");
+            strSql.Append(" FROM CLIENTE ");
+            strSql.Append(" LEFT JOIN FINANCLI ON CLIENTE.CODCLI = FINANCLI.CODCLI ");
+            strSql.Append(" WHERE CLIENTE.CODCLI = " + Codigo);
+            
+            var rsTemp = conn.Query(strSql.ToString());
+
+            if (rsTemp.Read()) {
+                this._EndCli    = rsTemp["ENDCLI"].ToString().Trim();
+                this._Numero    = rsTemp["NUMERO"].ToString().Trim();
+                this._CidCli    = rsTemp["CIDCLI"].ToString().Trim();
+                this._EstCli    = rsTemp["ESTCLI"].ToString().Trim();
+                this._CGC_CPF   = rsTemp["CGC_CPF"].ToString().Trim();
+                this._Email     = rsTemp["Email"].ToString().Trim();
+                this._DtaBloq   = rsTemp["DtaBloq"].ToString().Trim();
+                this._TelCli    = rsTemp["TelCli"].ToString().Trim();
+                if (rsTemp["CLIE_TABPRECOPADRAO"].ToString() != "")
+                {
+                    this._CLIE_TabPrecoPadrao = Convert.ToInt16(rsTemp["CLIE_TABPRECOPADRAO"].ToString());
+                }
+            }
+
+            rsTemp.Close();
+        }
+
+        public DataSet buscaCliente(string nome, UsuarioResumido u, ParametroResumido pr)
+        {            
+            Int32 iCodigo = 0;
+            Int32.TryParse(nome, out iCodigo);
+            
+            conn.AbrirBanco();
+            strSql.Length = 0;
+            
+            if (pr.ExibirRazaoSocial == 1) 
+            {
+                strSql.Append(" SELECT CLIENTE.CODCLI AS CODIGO, (CONVERT(VARCHAR,CLIENTE.CODCLI) + ' - ' + RAZSOC) AS NOME FROM CLIENTE INNER JOIN VENDCLI ON CLIENTE.CODCLI = VENDCLI.CODCLI ");
+            }
+            else
+            {
+                strSql.Append(" SELECT CLIENTE.CODCLI AS CODIGO, (CONVERT(VARCHAR,CLIENTE.CODCLI) + ' - ' + NOMFAN) AS NOME FROM CLIENTE INNER JOIN VENDCLI ON CLIENTE.CODCLI = VENDCLI.CODCLI ");
+            }
+
+            strSql.Append(" INNER JOIN VENDEDOR ON VENDEDOR.CODVEND = VENDCLI.CODVEN ");
+            strSql.Append(" WHERE ");
+            strSql.Append(" CLIENTE.ATIVO = 'S' AND ");
+            strSql.Append(" ISNULL(CLIENTE.PROSPECT,0) <> 1 AND ");
+            strSql.Append(" VENDEDOR.STATUS = 'A' AND ");
+            strSql.Append(" VENDEDOR.CodUsu  = " + u.CodUsu);
+            strSql.Append(" AND VENDCLI.CodEmp = " + u.CodEmp);
+
+            if (iCodigo == 0)
+            {
+                strSql.Append(" AND (RAZSOC LIKE '%" + nome.ToLower() + "%' OR CLIENTE.NOMFAN LIKE '%" + nome.ToLower() + "%' OR CLIENTE.CGC_CPF LIKE '%" + nome.ToLower() + "%')");
+            }
+            else
+            {
+                strSql.Append("AND CLIENTE.CODCLI = " + iCodigo);
+            }
+
+            strSql.Append(" ORDER BY RAZSOC, CLIENTE.NOMFAN");
+            var r = conn.retornaQueryDataSet(strSql.ToString());
+
+            return r;
+
+        }
+
+        public static List<ClienteResumido> ListarClientes(UsuarioResumido u, ParametroResumido pr)
+        {
+
+            //CODIGO FEITO COM LINQ
+            DataClassesDataContext dcdc = new DataClassesDataContext();
+            var retorno = (from c in dcdc.CLIENTEs
+                           join vc in dcdc.VENDCLIs on c.CodCli equals vc.CodCli
+                           join ve in dcdc.VENDEDORs on vc.CodVen equals ve.CodVend
+                           where c.Ativo != 'N'                 // clientes ativos
+                           where c.Prospect != 'S'              // nao trazer prospects
+                           where ve.Status.Equals('A')          // vendedores ativos
+                           where ve.CodUsu.Equals(u.CodUsu)
+                           where vc.CodEmp.Equals(u.CodEmp)
+                           orderby (pr.ExibirRazaoSocial==1 ? c.RazSoc : c.NomFan)
+                           select new ClienteResumido(c.CodCli, (c.CodCli + " - " + (pr.ExibirRazaoSocial == 1 ? c.RazSoc : c.NomFan)))).ToList();
+            dcdc.Dispose();
+            return retorno;
+        }
+
+        public static object ListarClientes2(UsuarioResumido u, ParametroResumido pr)
+        {
+            DataClassesDataContext dcdc = new DataClassesDataContext();
+            var retorno = from x in dcdc.CLIENTEs select new { Id = x.CodCli, nome = (pr.ExibirRazaoSocial == 1 ? x.RazSoc : x.NomFan) };
+            return retorno;
+        }
+
+        public static CLIENTE Cliente(int CodCli)
+        {
+            CLIENTE cr = new CLIENTE();
+            DataClassesDataContext dcdc = new DataClassesDataContext();
+            cr = dcdc.CLIENTEs.SingleOrDefault(c => c.CodCli == CodCli);
+            return cr;
+        }
+
+        public string ProximoCodigoCliente(ClasseBanco csBanco)
+        {
+
+            //Busca proximo codigo de cliente 
+            var r = csBanco.Query("SELECT MAX(CodCli)+ 1 AS Maximo FROM NUMCLI");
+
+            string iCodigoCliente = "";
+
+            if (r.Read())
+            {
+                iCodigoCliente = r[0].ToString();
+            }
+
+            r.Close();
+
+            //Insere a nova numeracao na tabela NUMCLI
+            csBanco.ExecutarComando("INSERT INTO NUMCLI (CODCLI) VALUES (" + iCodigoCliente + ")");
+
+            return iCodigoCliente;
+
+        }
+
+        public bool IncluirCliente()
+        {
+            ClasseBanco csBanco = new ClasseBanco();
+
+            string iCodigoCliente = this.ProximoCodigoCliente(csBanco);
+
+            string sCampos = "CodCli, Ativo, Cliente, Fornecedor, Prospect, RazSoc, NomFan, CGC_CPF, RgCli, EndCli, Numero, Bairro, CidCli, Complemento," +
+            "Cep, Celular, Contato, DatCad, Email, EstCli, FaxCli, RamCli, TelCli, TipoCli, OBS1 ";
+
+            string dtDataCadastro = DateTime.Today.Year + "/" + String.Format("{0:00}", DateTime.Today.Month) + "/" + String.Format("{0:00}", DateTime.Today.Day);
+
+            string sValores = iCodigoCliente + "," +
+                   "'" + this.Ativo + "','" +
+                   this.bCliente + "','" +
+                   this.Fornecedor + "','" +
+                   this.Prospect + "','" +
+                   this.RazSoc + "','" +
+                   this.NomFan + "','" +
+                   this.CGC_CPF + "','" +
+                   this.RgCli + "','" +
+                   this.EndCli + "','" +
+                   this.Numero + "','" +
+                   this.Bairro + "','" +
+                   this.CidCli + "','" +
+                   this.Complemento + "','" +
+                   this.Cep + "','" +
+                   this.Celular + "','" +
+                   this.Contato + "','" + dtDataCadastro + "','" +
+                   this.Email + "','" +
+                   this.EstCli + "','" +
+                   this.FaxCli + "','" +
+                   this.RamCli + "','" +
+                   this.TelCli + "','" +
+                   this.TipoCli + "','" +
+                   this.Obs1 + "'";
+            
+            
+            sValores = Funcoes.RetiraCaracteres(sValores);
+
+            //Insere na VENDCLI
+            int iVendedor = Convert.ToInt32(Session["CodVend"]);
+            int iEmpresa = Convert.ToInt32(Session["EmpresaCODEMP"]);
+            int iSequencia = 1;
+
+            csBanco.FU_Insert("VENDCLI", "CodEmp, CodCli, CodVen, TelVend_VendCli, Vend_VendCli, DataAdm", "" + iEmpresa + "," + iCodigoCliente + "," + iVendedor + ", 'N', 'S', CONVERT (datetime, GETDATE())");
+
+            //GRAVAR CLI_OBS com as Referencias
+            var r = csBanco.Query("SELECT ISNULL(MAX(CODSEQ),0) + 1 FROM CLI_OBS WHERE CODCLI = " + iCodigoCliente);
+            if (r.Read())
+            {
+                iSequencia = Convert.ToInt16(r[0].ToString());
+            }
+            r.Close();
+
+            if (this._RefBancaria != "")
+            {
+                csBanco.FU_Insert("CLI_OBS", "CodSeq, CodCli, Obs", "" + iSequencia + "," + iCodigoCliente + ",'Ref. Bancaria : " + this._RefBancaria + "'");
+                iSequencia = iSequencia + 1;
+            }
+
+            if (this._RefBancaria2 != "")
+            {
+                csBanco.FU_Insert("CLI_OBS", "CodSeq, CodCli, Obs", "" + iSequencia + "," + iCodigoCliente + ",'Ref. Bancaria II : " + this._RefBancaria2 + "'");
+                iSequencia = iSequencia + 1;
+            }
+
+            if (this._RefBancaria3 != "")
+            {
+                csBanco.FU_Insert("CLI_OBS", "CodSeq, CodCli, Obs", "" + iSequencia + "," + iCodigoCliente + ",'Ref. Bancaria III : " + this._RefBancaria3 + "'");
+                iSequencia = iSequencia + 1;
+            }
+
+            if (this._RefComercial != "")
+            {
+                csBanco.FU_Insert("CLI_OBS", "CodSeq, CodCli, Obs", "" + iSequencia + "," + iCodigoCliente + ",'Ref. Comercial : " + this._RefComercial + "'");
+                iSequencia = iSequencia + 1;
+            }
+
+            if (this._RefComercial2 != "")
+            {
+                csBanco.FU_Insert("CLI_OBS", "CodSeq, CodCli, Obs", "" + iSequencia + "," + iCodigoCliente + ",'Ref. Comercial II: " + this._RefComercial2 + "'");
+                iSequencia = iSequencia + 1;
+            }
+
+            if (this._RefComercial3 != "")
+            {
+                csBanco.FU_Insert("CLI_OBS", "CodSeq, CodCli, Obs", "" + iSequencia + "," + iCodigoCliente + ",'Ref. Comercial III : " + this._RefComercial3 + "'");
+                iSequencia = iSequencia + 1;
+            }
+
+            if (this._RefContador != "")
+            {
+                csBanco.FU_Insert("CLI_OBS", "CodSeq, CodCli, Obs", "" + iSequencia + "," + iCodigoCliente + ",'Ref. Contador : " + this._RefContador + "'");
+                iSequencia = iSequencia + 1;
+            }
+
+            if (this._RefContador2 != "")
+            {
+                csBanco.FU_Insert("CLI_OBS", "CodSeq, CodCli, Obs", "" + iSequencia + "," + iCodigoCliente + ",'Ref. Contador II : " + this._RefContador2 + "'");
+                iSequencia = iSequencia + 1;
+            }
+
+            if (this._RefContador3 != "")
+            {
+                csBanco.FU_Insert("CLI_OBS", "CodSeq, CodCli, Obs", "" + iSequencia + "," + iCodigoCliente + ",'Ref. Contador III : " + this._RefContador3 + "'");
+                iSequencia = iSequencia + 1;
+            }
+            
+            //Insere cliente
+            if (csBanco.FU_Insert("CLIENTE", sCampos, sValores) == 1)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+                        
+
+        }
+
+        public string MensagemBloqueio(int iCliente)
+        {            
+            string sMensagem = "";
+            DadosCliente(iCliente);
+
+            if (this._DtaBloq != null)
+            {
+                if (this._DtaBloq.ToString() != "" && this._DtaBloq.ToString() != "00:00:00")
+                {
+                    strSql.Length = 0;
+
+                    strSql.Append(" SELECT Descricao FROM CLIENTE INNER JOIN TIPOSBLOQ  ");
+                    strSql.Append(" ON CLIENTE.TipoBloq = TIPOSBLOQ.CodTip ");
+                    strSql.Append(" WHERE CLIENTE.CODCLI = " + iCliente);
+
+                    var rsTemp = conn.Query(strSql.ToString());
+
+                    if (rsTemp.Read())
+                    {
+                        sMensagem = "Cliente Bloqueado em " + this._DtaBloq.ToString() + " - " + rsTemp["Descricao"].ToString().Trim();
+                    }
+                    else
+                    {
+                        sMensagem = "Cliente Bloqueado em " + this._DtaBloq.ToString() + " sem Tipo de Bloqueio";
+                    }
+
+                    rsTemp.Close();
+                }
+            }
+            return sMensagem;
+
+        }
+    }
+
+}

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+	<system.webServer>
+		<handlers>
+			<remove name="XML" />
+			<add name="XML" path="*.xml" verb="*" type="System.Web.Services.Discovery.DiscoveryRequestHandler, System.Web.Services, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" resourceType="Unspecified" requireAccess="Script" preCondition="integratedMode" />
+		</handlers>
+	</system.webServer>
+</configuration>

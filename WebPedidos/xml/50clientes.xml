@@ -1,0 +1,244 @@
+<NewDataSet>
+  <Table>
+    <RAZSOC>- ERNANDES DIAS DA SILVA                          </RAZSOC>
+    <CODCLI>50020</CODCLI>
+    <STATUSCLIENTE>LB</STATUSCLIENTE>
+    <UF>PR</UF>
+    <CNPJ>66685761920</CNPJ>
+    <TAB_PADRAO>0</TAB_PADRAO>
+    <CODEMP>1</CODEMP>
+    <LimCred>0.0000</LimCred>
+    <VlrDeb>0.0000</VlrDeb>
+  </Table>
+  <Table>
+    <RAZSOC>ACOUGUE E MERCEARIA APARECIDA LTDA - ME           </RAZSOC>
+    <CODCLI>50266</CODCLI>
+    <STATUSCLIENTE>LB</STATUSCLIENTE>
+    <UF>PR</UF>
+    <CNPJ>85035277000102</CNPJ>
+    <TAB_PADRAO>0</TAB_PADRAO>
+    <CODEMP>1</CODEMP>
+    <LimCred>0.0000</LimCred>
+    <VlrDeb>0.0000</VlrDeb>
+  </Table>
+  <Table>
+    <RAZSOC>ANA MARIA BORGES CHIQUESSI                        </RAZSOC>
+    <CODCLI>10406</CODCLI>
+    <STATUSCLIENTE>LB</STATUSCLIENTE>
+    <UF>PR</UF>
+    <CNPJ>75669226968</CNPJ>
+    <TAB_PADRAO>0</TAB_PADRAO>
+    <CODEMP>1</CODEMP>
+    <LimCred>0.0000</LimCred>
+    <VlrDeb>0.0000</VlrDeb>
+  </Table>
+  <Table>
+    <RAZSOC>BENEDITO SILVA                                    </RAZSOC>
+    <CODCLI>70745</CODCLI>
+    <STATUSCLIENTE>BL</STATUSCLIENTE>
+    <UF>PR</UF>
+    <CNPJ>23374527949</CNPJ>
+    <TAB_PADRAO>0</TAB_PADRAO>
+    <CODEMP>1</CODEMP>
+    <LimCred>0.0000</LimCred>
+    <VlrDeb>0.0000</VlrDeb>
+  </Table>
+  <Table>
+    <RAZSOC>CARLOS CESAR SOUZA                                </RAZSOC>
+    <CODCLI>50021</CODCLI>
+    <STATUSCLIENTE>BL</STATUSCLIENTE>
+    <UF>PR</UF>
+    <CNPJ>79726623987</CNPJ>
+    <TAB_PADRAO>0</TAB_PADRAO>
+    <CODEMP>1</CODEMP>
+    <LimCred>0.0000</LimCred>
+    <VlrDeb>0.0000</VlrDeb>
+  </Table>
+  <Table>
+    <RAZSOC>DEBORA DE ANDRADE CARDOSO                         </RAZSOC>
+    <CODCLI>50026</CODCLI>
+    <STATUSCLIENTE>LB</STATUSCLIENTE>
+    <UF>PR</UF>
+    <CNPJ>06788497907</CNPJ>
+    <TAB_PADRAO>0</TAB_PADRAO>
+    <CODEMP>1</CODEMP>
+    <LimCred>0.0000</LimCred>
+    <VlrDeb>0.0000</VlrDeb>
+  </Table>
+  <Table>
+    <RAZSOC>J. B - GEBERT MERCEARIA LTDA - ME                 </RAZSOC>
+    <CODCLI>100504</CODCLI>
+    <STATUSCLIENTE>LB</STATUSCLIENTE>
+    <UF>PR</UF>
+    <CNPJ>10234738000177</CNPJ>
+    <TAB_PADRAO>0</TAB_PADRAO>
+    <CODEMP>1</CODEMP>
+    <LimCred>0.0000</LimCred>
+    <VlrDeb>0.0000</VlrDeb>
+  </Table>
+  <Table>
+    <RAZSOC>JANICE BIFF BISCAIA - ME                          </RAZSOC>
+    <CODCLI>100505</CODCLI>
+    <STATUSCLIENTE>LB</STATUSCLIENTE>
+    <UF>PR</UF>
+    <CNPJ>01551033000192</CNPJ>
+    <TAB_PADRAO>0</TAB_PADRAO>
+    <CODEMP>1</CODEMP>
+    <LimCred>0.0000</LimCred>
+    <VlrDeb>0.0000</VlrDeb>
+  </Table>
+  <Table>
+    <RAZSOC>JOAO BATISTA OLIVEIRA                             </RAZSOC>
+    <CODCLI>70441</CODCLI>
+    <STATUSCLIENTE>BL</STATUSCLIENTE>
+    <UF>PR</UF>
+    <CNPJ>28034945900</CNPJ>
+    <TAB_PADRAO>0</TAB_PADRAO>
+    <CODEMP>1</CODEMP>
+    <LimCred>0.0000</LimCred>
+    <VlrDeb>0.0000</VlrDeb>
+  </Table>
+  <Table>
+    <RAZSOC>JORGE LIMA DOS SANTOS - ME                        </RAZSOC>
+    <CODCLI>100506</CODCLI>
+    <STATUSCLIENTE>LB</STATUSCLIENTE>
+    <UF>PR</UF>
+    <CNPJ>76583202000175</CNPJ>
+    <TAB_PADRAO>0</TAB_PADRAO>
+    <CODEMP>1</CODEMP>
+    <LimCred>0.0000</LimCred>
+    <VlrDeb>0.0000</VlrDeb>
+  </Table>
+  <Table>
+    <RAZSOC>JOSE MARCELINO PIMENTEL                           </RAZSOC>
+    <CODCLI>100541</CODCLI>
+    <STATUSCLIENTE>LB</STATUSCLIENTE>
+    <UF>PR</UF>
+    <CNPJ>23234431949</CNPJ>
+    <TAB_PADRAO>0</TAB_PADRAO>
+    <CODEMP>1</CODEMP>
+    <LimCred>0.0000</LimCred>
+    <VlrDeb>0.0000</VlrDeb>
+  </Table>
+  <Table>
+    <RAZSOC>JOSETTE DE QUADROS LEPREVOST                      </RAZSOC>
+    <CODCLI>10366</CODCLI>
+    <STATUSCLIENTE>LB</STATUSCLIENTE>
+    <UF>PR</UF>
+    <CNPJ>18517018850</CNPJ>
+    <TAB_PADRAO>0</TAB_PADRAO>
+    <CODEMP>1</CODEMP>
+    <LimCred>0.0000</LimCred>
+    <VlrDeb>0.0000</VlrDeb>
+  </Table>
+  <Table>
+    <RAZSOC>JOSIAS JOSE                                       </RAZSOC>
+    <CODCLI>60127</CODCLI>
+    <STATUSCLIENTE>BL</STATUSCLIENTE>
+    <UF>PR</UF>
+    <CNPJ>20727437968</CNPJ>
+    <TAB_PADRAO>0</TAB_PADRAO>
+    <CODEMP>1</CODEMP>
+    <LimCred>0.0000</LimCred>
+    <VlrDeb>0.0000</VlrDeb>
+  </Table>
+  <Table>
+    <RAZSOC>JOSIAS MARÇAL MACHADO                             </RAZSOC>
+    <CODCLI>5000000</CODCLI>
+    <STATUSCLIENTE>LB</STATUSCLIENTE>
+    <UF>PR</UF>
+    <CNPJ>05870054915</CNPJ>
+    <TAB_PADRAO>0</TAB_PADRAO>
+    <CODEMP>1</CODEMP>
+    <LimCred>0.0000</LimCred>
+    <VlrDeb>0.0000</VlrDeb>
+  </Table>
+  <Table>
+    <RAZSOC>LAZARO OLIVEIRA                                   </RAZSOC>
+    <CODCLI>60057</CODCLI>
+    <STATUSCLIENTE>BL</STATUSCLIENTE>
+    <UF>PR</UF>
+    <CNPJ>36265047949</CNPJ>
+    <TAB_PADRAO>0</TAB_PADRAO>
+    <CODEMP>1</CODEMP>
+    <LimCred>0.0000</LimCred>
+    <VlrDeb>0.0000</VlrDeb>
+  </Table>
+  <Table>
+    <RAZSOC>LEILA DE FATIMA DA SILVA - ME                     </RAZSOC>
+    <CODCLI>10258</CODCLI>
+    <STATUSCLIENTE>BL</STATUSCLIENTE>
+    <UF>PR</UF>
+    <CNPJ>08798421000111</CNPJ>
+    <TAB_PADRAO>0</TAB_PADRAO>
+    <CODEMP>1</CODEMP>
+    <LimCred>0.0000</LimCred>
+    <VlrDeb>45.1800</VlrDeb>
+  </Table>
+  <Table>
+    <RAZSOC>M.W MERCEARIA LTDA  - ME                          </RAZSOC>
+    <CODCLI>100544</CODCLI>
+    <STATUSCLIENTE>LB</STATUSCLIENTE>
+    <UF>PR</UF>
+    <CNPJ>13174173000178</CNPJ>
+    <TAB_PADRAO>0</TAB_PADRAO>
+    <CODEMP>1</CODEMP>
+    <LimCred>0.0000</LimCred>
+    <VlrDeb>0.0000</VlrDeb>
+  </Table>
+  <Table>
+    <RAZSOC>MARIA APARECIDA DE MORAIS                         </RAZSOC>
+    <CODCLI>50037</CODCLI>
+    <STATUSCLIENTE>LB</STATUSCLIENTE>
+    <UF>PR</UF>
+    <CNPJ>67543898934</CNPJ>
+    <TAB_PADRAO>0</TAB_PADRAO>
+    <CODEMP>1</CODEMP>
+    <LimCred>0.0000</LimCred>
+    <VlrDeb>0.0000</VlrDeb>
+  </Table>
+  <Table>
+    <RAZSOC>MARIO MENDES - ACROPOLE - ME                      </RAZSOC>
+    <CODCLI>100543</CODCLI>
+    <STATUSCLIENTE>LB</STATUSCLIENTE>
+    <UF>PR</UF>
+    <CNPJ>12409624000146</CNPJ>
+    <TAB_PADRAO>0</TAB_PADRAO>
+    <CODEMP>1</CODEMP>
+    <LimCred>0.0000</LimCred>
+    <VlrDeb>0.0000</VlrDeb>
+  </Table>
+  <Table>
+    <RAZSOC>NADIR DE JESUS DO AMARAL                          </RAZSOC>
+    <CODCLI>50035</CODCLI>
+    <STATUSCLIENTE>LB</STATUSCLIENTE>
+    <UF>PR</UF>
+    <CNPJ>02321121939</CNPJ>
+    <TAB_PADRAO>0</TAB_PADRAO>
+    <CODEMP>1</CODEMP>
+    <LimCred>0.0000</LimCred>
+    <VlrDeb>0.0000</VlrDeb>
+  </Table>
+  <Table>
+    <RAZSOC>VANDERLEI MARIA TOZETTI DA SILVA                  </RAZSOC>
+    <CODCLI>100542</CODCLI>
+    <STATUSCLIENTE>LB</STATUSCLIENTE>
+    <UF>PR</UF>
+    <CNPJ>03906381960</CNPJ>
+    <TAB_PADRAO>0</TAB_PADRAO>
+    <CODEMP>1</CODEMP>
+    <LimCred>0.0000</LimCred>
+    <VlrDeb>0.0000</VlrDeb>
+  </Table>
+  <Table>
+    <RAZSOC>WILSON MELO MACHADO                               </RAZSOC>
+    <CODCLI>100537</CODCLI>
+    <STATUSCLIENTE>LB</STATUSCLIENTE>
+    <UF>PR</UF>
+    <CNPJ>76552799934</CNPJ>
+    <TAB_PADRAO>0</TAB_PADRAO>
+    <CODEMP>1</CODEMP>
+    <LimCred>0.0000</LimCred>
+    <VlrDeb>0.0000</VlrDeb>
+  </Table>
+</NewDataSet>

@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Express 2012 for Web
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "WebPedidos", "WebPedidos\", "{41D8CD90-5139-4A0D-9D57-990E16D7DFC7}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv3.5"
+		Debug.AspNetCompiler.VirtualPath = "/WebPedidos"
+		Debug.AspNetCompiler.PhysicalPath = "WebPedidos\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\WebPedidos\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/WebPedidos"
+		Release.AspNetCompiler.PhysicalPath = "WebPedidos\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\WebPedidos\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "1162"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{41D8CD90-5139-4A0D-9D57-990E16D7DFC7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{41D8CD90-5139-4A0D-9D57-990E16D7DFC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

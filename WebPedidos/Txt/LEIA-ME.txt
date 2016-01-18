@@ -1,0 +1,12 @@
+Ao atualizar ou implantar o WEBPEDIDOS, configurar sempre o Data Source e Initial Catalog para
+o servidor e banco desejado.
+
+Exemplo no arquivo Web.config :
+
+<add name="BDADOSConnectionString" connectionString="Data Source=(local);Initial Catalog=BDADOS;Integrated Security=True" providerName="System.Data.SqlClient"/>
+
+
+1) web.config, na pasta raiz da webPedidos
+2) Na pasta App_Code, os arquivos DataClasses.dbml e DataClasses.designer.cs
+3) Na Pasta App_Code/WSClasses, o arquivo ClasseBanco.cs
+

@@ -1,0 +1,68 @@
+Regras Web Pedidos
+
+
+Usuários Web
+
+	- No cadastro do vendedor, associá-lo a um usuário (Cadastro de Usuários - Módulo Usuários)
+
+
+Gerais
+	- Ao entrar na página do cadastro de pedidos o sistema já aloca uma númeração de pedido no SIGMA e outra
+numeração para a Web. Esses números não poderão ser utilizados mais, mesmo que o usuário não grave o pedido ou saia
+da página.
+
+
+Condicoes de Pagamento
+
+	- Valida formas de pagamento marcadas "Forma de Pagamento para Venda". (009 - Cadastro de Formas de Pagamento - Módulo Cadastros Gerais)
+	- Valida Parametro marcado "Envia Palm". (011 - Cadastro Condições de Pagamento - Módulo Cadastros Gerais)
+
+
+Tipo de Movimentação
+
+	- Busca parâmetro (962 - ParÂmetros do Módulo Ferramentas - Tipo de Movimentação Dentro e Fora do Estado)
+
+
+Clientes
+
+	- Traz clientes do vendedor logado, que estejam ativos e que não sejam Prospects
+	- Exibe alerta para o vendedor se o Cliente tiver créditos disponíveis.
+
+
+Produtos
+
+	- Busca Mercadorias Ativas (Ativo=S), Bloqueio Palm desmarcado e que necessariamente tenham tabela de preço, filtrando pelo Preço / Prazo parametrizados. 
+	- Valida a opção de controlar saldo "Controlar Saldo no Pedido" no Parametro de Vendas (Tela 689 - ParÂmetros do Módulo de Vendas, Ficha 1 - Pedidos 1), caso esteja marcado, 
+não permite venda com mercadorias sem saldo.
+
+
+Política Preços / Descontos
+
+	- Valida o Tipo de Tabela de preço padrão (689 - ParÂmetros do Módulo de Vendas, Ficha II - Pedidos 2, campos Tipo Preço - Tipo Prazo)
+	- Validação percentual máximo para descontos da mercadoria. (039 - Cadastro de Mercadorias, Ficha 6, campo "% Máximo de Desconto")
+	- Validação para venda de mercadoria com preço superior ao permitido (Em percentual). 
+	  (Tela 689 - ParÂmetros do Módulo de Vendas, Ficha 1 - Pedidos 1, campo "% sobre o vlr acima da tabela p/ bloqueio na digitação de pedido")
+	- Validação do percentual de desconto máximo permitido para o vendedor (015 - Cadastro de Representantes, Ficha 2 - Inf. Complementares, campo "Desconto
+Máximo sobre o Total do Pedido") 
+	- Valida se há desconto da condição de pagamento, nesse caso não considera a validação do percentual máximo do vendedor.
+
+
+
+Bloqueio Financeiro
+
+	- Permite gravar o pedido mas com bloqueios e regras do SIGMA. (Limite de Crédito, Inadimplencia, etc).
+	
+
+Comissoes
+
+
+	- Verifica se usará política de desconto na comissão (Tela 689 - ParÂmetros do Módulo de Vendas, Ficha 5 - Política Desc./Comissão, opção "Usar Tabela de Descontos para comissão Vendedores"). 
+Se estiver marcado, buscará os valores parametrizados na grade (Tela 689 - ParÂmetros do Módulo de Vendas, Ficha 5 - Política Desc./Comissão)	
+	
+
+	- Validadação do parametro para mercadorias sem comissão. Caso esteja marcado e a mercadoria não tiver comissão 
+não permite a venda. ***Está fixo "N".
+
+	- Validação da prioridade de comissão. Definida no parametro de vendas (Tela 689 - ParÂmetros do Módulo de Vendas, Ficha 5 - Política Desc./Comissão)
+
+

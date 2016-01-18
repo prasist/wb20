@@ -1,0 +1,35 @@
+<NewDataSet>
+  <Table>
+    <RAZSOC>MERCADO MEZZOMO LTDA - ME                         </RAZSOC>
+    <CODCLI>100523</CODCLI>
+    <STATUSCLIENTE>LB</STATUSCLIENTE>
+    <UF>PR</UF>
+    <CNPJ>76800333000167</CNPJ>
+    <TAB_PADRAO>0</TAB_PADRAO>
+    <CODEMP>1</CODEMP>
+    <LimCred>0.0000</LimCred>
+    <VlrDeb>0.0000</VlrDeb>
+  </Table>
+  <Table>
+    <RAZSOC>PATRICK                                           </RAZSOC>
+    <CODCLI>60000</CODCLI>
+    <STATUSCLIENTE>LB</STATUSCLIENTE>
+    <UF>PR</UF>
+    <CNPJ>07563664963</CNPJ>
+    <TAB_PADRAO>0</TAB_PADRAO>
+    <CODEMP>1</CODEMP>
+    <LimCred>0.0000</LimCred>
+    <VlrDeb>0.0000</VlrDeb>
+  </Table>
+  <Table>
+    <RAZSOC>VALDIVA CORREA DA SILVA - ME                      </RAZSOC>
+    <CODCLI>50015</CODCLI>
+    <STATUSCLIENTE>LB</STATUSCLIENTE>
+    <UF>PR</UF>
+    <CNPJ>07170131000166</CNPJ>
+    <TAB_PADRAO>0</TAB_PADRAO>
+    <CODEMP>1</CODEMP>
+    <LimCred>0.0000</LimCred>
+    <VlrDeb>0.0000</VlrDeb>
+  </Table>
+</NewDataSet>

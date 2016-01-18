@@ -1,0 +1,2354 @@
+<NewDataSet>
+  <Table>
+    <CodEmp>1</CodEmp>
+    <CodCli>12899</CodCli>
+    <NumDoc>82</NumDoc>
+    <NumPar>1</NumPar>
+    <Serie>PD </Serie>
+    <Status>A</Status>
+    <VlrDoc>50.5200</VlrDoc>
+    <Saldo>50.5200</Saldo>
+    <DtaVen>30/06/2015                    </DtaVen>
+    <DtaEmi>30/06/2015                    </DtaEmi>
+    <QtdPar>1</QtdPar>
+    <atraso>202</atraso>
+  </Table>
+  <Table>
+    <CodEmp>1</CodEmp>
+    <CodCli>12409</CodCli>
+    <NumDoc>84</NumDoc>
+    <NumPar>1</NumPar>
+    <Serie>PD </Serie>
+    <Status>A</Status>
+    <VlrDoc>60.7600</VlrDoc>
+    <Saldo>60.7600</Saldo>
+    <DtaVen>30/06/2015                    </DtaVen>
+    <DtaEmi>30/06/2015                    </DtaEmi>
+    <QtdPar>1</QtdPar>
+    <atraso>202</atraso>
+  </Table>
+  <Table>
+    <CodEmp>1</CodEmp>
+    <CodCli>10727</CodCli>
+    <NumDoc>85</NumDoc>
+    <NumPar>1</NumPar>
+    <Serie>PD </Serie>
+    <Status>A</Status>
+    <VlrDoc>9.6200</VlrDoc>
+    <Saldo>9.6200</Saldo>
+    <DtaVen>30/06/2015                    </DtaVen>
+    <DtaEmi>30/06/2015                    </DtaEmi>
+    <QtdPar>1</QtdPar>
+    <atraso>202</atraso>
+  </Table>
+  <Table>
+    <CodEmp>1</CodEmp>
+    <CodCli>12193</CodCli>
+    <NumDoc>86</NumDoc>
+    <NumPar>1</NumPar>
+    <Serie>PD </Serie>
+    <Status>A</Status>
+    <VlrDoc>106.1800</VlrDoc>
+    <Saldo>106.1800</Saldo>
+    <DtaVen>30/06/2015                    </DtaVen>
+    <DtaEmi>30/06/2015                    </DtaEmi>
+    <QtdPar>1</QtdPar>
+    <atraso>202</atraso>
+  </Table>
+  <Table>
+    <CodEmp>1</CodEmp>
+    <CodCli>12097</CodCli>
+    <NumDoc>87</NumDoc>
+    <NumPar>1</NumPar>
+    <Serie>PD </Serie>
+    <Status>A</Status>
+    <VlrDoc>281.7300</VlrDoc>
+    <Saldo>281.7300</Saldo>
+    <DtaVen>30/06/2015                    </DtaVen>
+    <DtaEmi>30/06/2015                    </DtaEmi>
+    <QtdPar>1</QtdPar>
+    <atraso>202</atraso>
+  </Table>
+  <Table>
+    <CodEmp>1</CodEmp>
+    <CodCli>12741</CodCli>
+    <NumDoc>90</NumDoc>
+    <NumPar>1</NumPar>
+    <Serie>PD </Serie>
+    <Status>A</Status>
+    <VlrDoc>62.8200</VlrDoc>
+    <Saldo>62.8200</Saldo>
+    <DtaVen>30/06/2015                    </DtaVen>
+    <DtaEmi>30/06/2015                    </DtaEmi>
+    <QtdPar>1</QtdPar>
+    <atraso>202</atraso>
+  </Table>
+  <Table>
+    <CodEmp>1</CodEmp>
+    <CodCli>12234</CodCli>
+    <NumDoc>91</NumDoc>
+    <NumPar>1</NumPar>
+    <Serie>PD </Serie>
+    <Status>A</Status>
+    <VlrDoc>90.7900</VlrDoc>
+    <Saldo>90.7900</Saldo>
+    <DtaVen>30/06/2015                    </DtaVen>
+    <DtaEmi>30/06/2015                    </DtaEmi>
+    <QtdPar>1</QtdPar>
+    <atraso>202</atraso>
+  </Table>
+  <Table>
+    <CodEmp>1</CodEmp>
+    <CodCli>60125</CodCli>
+    <NumDoc>93</NumDoc>
+    <NumPar>1</NumPar>
+    <Serie>PD </Serie>
+    <Status>A</Status>
+    <VlrDoc>630.2400</VlrDoc>
+    <Saldo>630.2400</Saldo>
+    <DtaVen>21/07/2015                    </DtaVen>
+    <DtaEmi>30/06/2015                    </DtaEmi>
+    <QtdPar>1</QtdPar>
+    <atraso>181</atraso>
+  </Table>
+  <Table>
+    <CodEmp>1</CodEmp>
+    <CodCli>70096</CodCli>
+    <NumDoc>94</NumDoc>
+    <NumPar>1</NumPar>
+    <Serie>PD</Serie>
+    <Status>A</Status>
+    <VlrDoc>310.5200</VlrDoc>
+    <Saldo>310.5200</Saldo>
+    <DtaVen>21/07/2015                    </DtaVen>
+    <DtaEmi>09/07/2015                    </DtaEmi>
+    <QtdPar>1</QtdPar>
+    <atraso>181</atraso>
+  </Table>
+  <Table>
+    <CodEmp>1</CodEmp>
+    <CodCli>12558</CodCli>
+    <NumDoc>95</NumDoc>
+    <NumPar>1</NumPar>
+    <Serie>PD </Serie>
+    <Status>A</Status>
+    <VlrDoc>232.1800</VlrDoc>
+    <Saldo>232.1800</Saldo>
+    <DtaVen>30/06/2015                    </DtaVen>
+    <DtaEmi>30/06/2015                    </DtaEmi>
+    <QtdPar>1</QtdPar>
+    <atraso>202</atraso>
+  </Table>
+  <Table>
+    <CodEmp>1</CodEmp>
+    <CodCli>12700</CodCli>
+    <NumDoc>96</NumDoc>
+    <NumPar>1</NumPar>
+    <Serie>PD </Serie>
+    <Status>A</Status>
+    <VlrDoc>318.9700</VlrDoc>
+    <Saldo>318.9700</Saldo>
+    <DtaVen>30/06/2015                    </DtaVen>
+    <DtaEmi>30/06/2015                    </DtaEmi>
+    <QtdPar>1</QtdPar>
+    <atraso>202</atraso>
+  </Table>
+  <Table>
+    <CodEmp>1</CodEmp>
+    <CodCli>10727</CodCli>
+    <NumDoc>97</NumDoc>
+    <NumPar>1</NumPar>
+    <Serie>PD </Serie>
+    <Status>A</Status>
+    <VlrDoc>158.5700</VlrDoc>
+    <Saldo>158.5700</Saldo>
+    <DtaVen>30/06/2015                    </DtaVen>
+    <DtaEmi>30/06/2015                    </DtaEmi>
+    <QtdPar>1</QtdPar>
+    <atraso>202</atraso>
+  </Table>
+  <Table>
+    <CodEmp>1</CodEmp>
+    <CodCli>12786</CodCli>
+    <NumDoc>98</NumDoc>
+    <NumPar>1</NumPar>
+    <Serie>PD </Serie>
+    <Status>A</Status>
+    <VlrDoc>83.5100</VlrDoc>
+    <Saldo>83.5100</Saldo>
+    <DtaVen>30/06/2015                    </DtaVen>
+    <DtaEmi>30/06/2015                    </DtaEmi>
+    <QtdPar>1</QtdPar>
+    <atraso>202</atraso>
+  </Table>
+  <Table>
+    <CodEmp>1</CodEmp>
+    <CodCli>12456</CodCli>
+    <NumDoc>177</NumDoc>
+    <NumPar>1</NumPar>
+    <Serie>PD </Serie>
+    <Status>A</Status>
+    <VlrDoc>531.1700</VlrDoc>
+    <Saldo>531.1700</Saldo>
+    <DtaVen>02/07/2015                    </DtaVen>
+    <DtaEmi>02/07/2015                    </DtaEmi>
+    <QtdPar>1</QtdPar>
+    <atraso>200</atraso>
+  </Table>
+  <Table>
+    <CodEmp>1</CodEmp>
+    <CodCli>12669</CodCli>
+    <NumDoc>178</NumDoc>
+    <NumPar>1</NumPar>
+    <Serie>PD </Serie>
+    <Status>A</Status>
+    <VlrDoc>289.0300</VlrDoc>
+    <Saldo>289.0300</Saldo>
+    <DtaVen>02/07/2015                    </DtaVen>
+    <DtaEmi>02/07/2015                    </DtaEmi>
+    <QtdPar>1</QtdPar>
+    <atraso>200</atraso>
+  </Table>
+  <Table>
+    <CodEmp>1</CodEmp>
+    <CodCli>10386</CodCli>
+    <NumDoc>179</NumDoc>
+    <NumPar>1</NumPar>
+    <Serie>PD </Serie>
+    <Status>A</Status>
+    <VlrDoc>522.2800</VlrDoc>
+    <Saldo>522.2800</Saldo>
+    <DtaVen>02/07/2015                    </DtaVen>
+    <DtaEmi>02/07/2015                    </DtaEmi>
+    <QtdPar>1</QtdPar>
+    <atraso>200</atraso>
+  </Table>
+  <Table>
+    <CodEmp>1</CodEmp>
+    <CodCli>12359</CodCli>
+    <NumDoc>181</NumDoc>
+    <NumPar>1</NumPar>
+    <Serie>PD </Serie>
+    <Status>A</Status>
+    <VlrDoc>175.8700</VlrDoc>
+    <Saldo>175.8700</Saldo>
+    <DtaVen>02/07/2015                    </DtaVen>
+    <DtaEmi>02/07/2015                    </DtaEmi>
+    <QtdPar>1</QtdPar>
+    <atraso>200</atraso>
+  </Table>
+  <Table>
+    <CodEmp>1</CodEmp>
+    <CodCli>12582</CodCli>
+    <NumDoc>182</NumDoc>
+    <NumPar>1</NumPar>
+    <Serie>PD </Serie>
+    <Status>A</Status>
+    <VlrDoc>113.9100</VlrDoc>
+    <Saldo>113.9100</Saldo>
+    <DtaVen>02/07/2015                    </DtaVen>
+    <DtaEmi>02/07/2015                    </DtaEmi>
+    <QtdPar>1</QtdPar>
+    <atraso>200</atraso>
+  </Table>
+  <Table>
+    <CodEmp>1</CodEmp>
+    <CodCli>12669</CodCli>
+    <NumDoc>183</NumDoc>
+    <NumPar>1</NumPar>
+    <Serie>PD </Serie>
+    <Status>A</Status>
+    <VlrDoc>526.9000</VlrDoc>
+    <Saldo>526.9000</Saldo>
+    <DtaVen>02/07/2015                    </DtaVen>
+    <DtaEmi>02/07/2015                    </DtaEmi>
+    <QtdPar>1</QtdPar>
+    <atraso>200</atraso>
+  </Table>
+  <Table>
+    <CodEmp>1</CodEmp>
+    <CodCli>12229</CodCli>
+    <NumDoc>184</NumDoc>
+    <NumPar>1</NumPar>
+    <Serie>PD </Serie>
+    <Status>A</Status>
+    <VlrDoc>146.4700</VlrDoc>
+    <Saldo>146.4700</Saldo>
+    <DtaVen>02/07/2015                    </DtaVen>
+    <DtaEmi>02/07/2015                    </DtaEmi>
+    <QtdPar>1</QtdPar>
+    <atraso>200</atraso>
+  </Table>
+  <Table>
+    <CodEmp>1</CodEmp>
+    <CodCli>12667</CodCli>
+    <NumDoc>185</NumDoc>
+    <NumPar>1</NumPar>
+    <Serie>PD </Serie>
+    <Status>A</Status>
+    <VlrDoc>238.0900</VlrDoc>
+    <Saldo>238.0900</Saldo>
+    <DtaVen>02/07/2015                    </DtaVen>
+    <DtaEmi>02/07/2015                    </DtaEmi>
+    <QtdPar>1</QtdPar>
+    <atraso>200</atraso>
+  </Table>
+  <Table>
+    <CodEmp>1</CodEmp>
+    <CodCli>12169</CodCli>
+    <NumDoc>186</NumDoc>
+    <NumPar>1</NumPar>
+    <Serie>PD </Serie>
+    <Status>A</Status>
+    <VlrDoc>107.5000</VlrDoc>
+    <Saldo>107.5000</Saldo>
+    <DtaVen>02/07/2015                    </DtaVen>
+    <DtaEmi>02/07/2015                    </DtaEmi>
+    <QtdPar>1</QtdPar>
+    <atraso>200</atraso>
+  </Table>
+  <Table>
+    <CodEmp>1</CodEmp>
+    <CodCli>69786</CodCli>
+    <NumDoc>226</NumDoc>
+    <NumPar>1</NumPar>
+    <Serie>PD </Serie>
+    <Status>A</Status>
+    <VlrDoc>388.0100</VlrDoc>
+    <Saldo>388.0100</Saldo>
+    <DtaVen>02/07/2015                    </DtaVen>
+    <DtaEmi>02/07/2015                    </DtaEmi>
+    <QtdPar>1</QtdPar>
+    <atraso>200</atraso>
+  </Table>
+  <Table>
+    <CodEmp>1</CodEmp>
+    <CodCli>12578</CodCli>
+    <NumDoc>227</NumDoc>
+    <NumPar>1</NumPar>
+    <Serie>PD </Serie>
+    <Status>A</Status>
+    <VlrDoc>128.2400</VlrDoc>
+    <Saldo>128.2400</Saldo>
+    <DtaVen>02/07/2015                    </DtaVen>
+    <DtaEmi>02/07/2015                    </DtaEmi>
+    <QtdPar>1</QtdPar>
+    <atraso>200</atraso>
+  </Table>
+  <Table>
+    <CodEmp>1</CodEmp>
+    <CodCli>69375</CodCli>
+    <NumDoc>228</NumDoc>
+    <NumPar>1</NumPar>
+    <Serie>PD</Serie>
+    <Status>A</Status>
+    <VlrDoc>480.1900</VlrDoc>
+    <Saldo>480.1900</Saldo>
+    <DtaVen>03/08/2015                    </DtaVen>
+    <DtaEmi>16/07/2015                    </DtaEmi>
+    <QtdPar>1</QtdPar>
+    <atraso>168</atraso>
+  </Table>
+  <Table>
+    <CodEmp>1</CodEmp>
+    <CodCli>69848</CodCli>
+    <NumDoc>229</NumDoc>
+    <NumPar>1</NumPar>
+    <Serie>PD </Serie>
+    <Status>A</Status>
+    <VlrDoc>250.0800</VlrDoc>
+    <Saldo>250.0800</Saldo>
+    <DtaVen>02/07/2015                    </DtaVen>
+    <DtaEmi>02/07/2015                    </DtaEmi>
+    <QtdPar>1</QtdPar>
+    <atraso>200</atraso>
+  </Table>
+  <Table>
+    <CodEmp>1</CodEmp>
+    <CodCli>77766</CodCli>
+    <NumDoc>230</NumDoc>
+    <NumPar>1</NumPar>
+    <Serie>PD </Serie>
+    <Status>A</Status>
+    <VlrDoc>117.9200</VlrDoc>
+    <Saldo>117.9200</Saldo>
+    <DtaVen>02/07/2015                    </DtaVen>
+    <DtaEmi>02/07/2015                    </DtaEmi>
+    <QtdPar>1</QtdPar>
+    <atraso>200</atraso>
+  </Table>
+  <Table>
+    <CodEmp>1</CodEmp>
+    <CodCli>88512</CodCli>
+    <NumDoc>231</NumDoc>
+    <NumPar>1</NumPar>
+    <Serie>PD </Serie>
+    <Status>A</Status>
+    <VlrDoc>91.6700</VlrDoc>
+    <Saldo>91.6700</Saldo>
+    <DtaVen>02/07/2015                    </DtaVen>
+    <DtaEmi>02/07/2015                    </DtaEmi>
+    <QtdPar>1</QtdPar>
+    <atraso>200</atraso>
+  </Table>
+  <Table>
+    <CodEmp>1</CodEmp>
+    <CodCli>12886</CodCli>
+    <NumDoc>233</NumDoc>
+    <NumPar>1</NumPar>
+    <Serie>PD </Serie>
+    <Status>A</Status>
+    <VlrDoc>76.2900</VlrDoc>
+    <Saldo>76.2900</Saldo>
+    <DtaVen>02/07/2015                    </DtaVen>
+    <DtaEmi>02/07/2015                    </DtaEmi>
+    <QtdPar>1</QtdPar>
+    <atraso>200</atraso>
+  </Table>
+  <Table>
+    <CodEmp>1</CodEmp>
+    <CodCli>12679</CodCli>
+    <NumDoc>247</NumDoc>
+    <NumPar>1</NumPar>
+    <Serie>PD </Serie>
+    <Status>A</Status>
+    <VlrDoc>325.5500</VlrDoc>
+    <Saldo>325.5500</Saldo>
+    <DtaVen>02/07/2015                    </DtaVen>
+    <DtaEmi>02/07/2015                    </DtaEmi>
+    <QtdPar>1</QtdPar>
+    <atraso>200</atraso>
+  </Table>
+  <Table>
+    <CodEmp>1</CodEmp>
+    <CodCli>12659</CodCli>
+    <NumDoc>249</NumDoc>
+    <NumPar>1</NumPar>
+    <Serie>PD </Serie>
+    <Status>A</Status>
+    <VlrDoc>402.4400</VlrDoc>
+    <Saldo>402.4400</Saldo>
+    <DtaVen>02/07/2015                    </DtaVen>
+    <DtaEmi>02/07/2015                    </DtaEmi>
+    <QtdPar>1</QtdPar>
+    <atraso>200</atraso>
+  </Table>
+  <Table>
+    <CodEmp>1</CodEmp>
+    <CodCli>10423</CodCli>
+    <NumDoc>250</NumDoc>
+    <NumPar>1</NumPar>
+    <Serie>PD </Serie>
+    <Status>A</Status>
+    <VlrDoc>449.6100</VlrDoc>
+    <Saldo>449.6100</Saldo>
+    <DtaVen>02/07/2015                    </DtaVen>
+    <DtaEmi>02/07/2015                    </DtaEmi>
+    <QtdPar>1</QtdPar>
+    <atraso>200</atraso>
+  </Table>
+  <Table>
+    <CodEmp>1</CodEmp>
+    <CodCli>12130</CodCli>
+    <NumDoc>251</NumDoc>
+    <NumPar>1</NumPar>
+    <Serie>PD </Serie>
+    <Status>A</Status>
+    <VlrDoc>146.3500</VlrDoc>
+    <Saldo>146.3500</Saldo>
+    <DtaVen>02/07/2015                    </DtaVen>
+    <DtaEmi>02/07/2015                    </DtaEmi>
+    <QtdPar>1</QtdPar>
+    <atraso>200</atraso>
+  </Table>
+  <Table>
+    <CodEmp>1</CodEmp>
+    <CodCli>86503</CodCli>
+    <NumDoc>253</NumDoc>
+    <NumPar>1</NumPar>
+    <Serie>PD </Serie>
+    <Status>A</Status>
+    <VlrDoc>153.7200</VlrDoc>
+    <Saldo>153.7200</Saldo>
+    <DtaVen>02/07/2015                    </DtaVen>
+    <DtaEmi>02/07/2015                    </DtaEmi>
+    <QtdPar>1</QtdPar>
+    <atraso>200</atraso>
+  </Table>
+  <Table>
+    <CodEmp>1</CodEmp>
+    <CodCli>25964</CodCli>
+    <NumDoc>266</NumDoc>
+    <NumPar>1</NumPar>
+    <Serie>PD </Serie>
+    <Status>A</Status>
+    <VlrDoc>964.5000</VlrDoc>
+    <Saldo>964.5000</Saldo>
+    <DtaVen>02/07/2015                    </DtaVen>
+    <DtaEmi>02/07/2015                    </DtaEmi>
+    <QtdPar>1</QtdPar>
+    <atraso>200</atraso>
+  </Table>
+  <Table>
+    <CodEmp>1</CodEmp>
+    <CodCli>40227</CodCli>
+    <NumDoc>290</NumDoc>
+    <NumPar>1</NumPar>
+    <Serie>PD </Serie>
+    <Status>A</Status>
+    <VlrDoc>434.2700</VlrDoc>
+    <Saldo>434.2700</Saldo>
+    <DtaVen>03/07/2015                    </DtaVen>
+    <DtaEmi>03/07/2015                    </DtaEmi>
+    <QtdPar>1</QtdPar>
+    <atraso>199</atraso>
+  </Table>
+  <Table>
+    <CodEmp>1</CodEmp>
+    <CodCli>12647</CodCli>
+    <NumDoc>328</NumDoc>
+    <NumPar>1</NumPar>
+    <Serie>PD </Serie>
+    <Status>A</Status>
+    <VlrDoc>159.4200</VlrDoc>
+    <Saldo>159.4200</Saldo>
+    <DtaVen>10/07/2015                    </DtaVen>
+    <DtaEmi>03/07/2015                    </DtaEmi>
+    <QtdPar>1</QtdPar>
+    <atraso>192</atraso>
+  </Table>
+  <Table>
+    <CodEmp>1</CodEmp>
+    <CodCli>12813</CodCli>
+    <NumDoc>330</NumDoc>
+    <NumPar>1</NumPar>
+    <Serie>PD </Serie>
+    <Status>A</Status>
+    <VlrDoc>100.2800</VlrDoc>
+    <Saldo>100.2800</Saldo>
+    <DtaVen>10/07/2015                    </DtaVen>
+    <DtaEmi>03/07/2015                    </DtaEmi>
+    <QtdPar>1</QtdPar>
+    <atraso>192</atraso>
+  </Table>
+  <Table>
+    <CodEmp>1</CodEmp>
+    <CodCli>100437</CodCli>
+    <NumDoc>339</NumDoc>
+    <NumPar>1</NumPar>
+    <Serie>PD </Serie>
+    <Status>A</Status>
+    <VlrDoc>170.6800</VlrDoc>
+    <Saldo>170.6800</Saldo>
+    <DtaVen>24/07/2015                    </DtaVen>
+    <DtaEmi>03/07/2015                    </DtaEmi>
+    <QtdPar>1</QtdPar>
+    <atraso>178</atraso>
+  </Table>
+  <Table>
+    <CodEmp>1</CodEmp>
+    <CodCli>12097</CodCli>
+    <NumDoc>428</NumDoc>
+    <NumPar>1</NumPar>
+    <Serie>PD </Serie>
+    <Status>A</Status>
+    <VlrDoc>245.0500</VlrDoc>
+    <Saldo>245.0500</Saldo>
+    <DtaVen>14/07/2015                    </DtaVen>
+    <DtaEmi>07/07/2015                    </DtaEmi>
+    <QtdPar>1</QtdPar>
+    <atraso>188</atraso>
+  </Table>
+  <Table>
+    <CodEmp>1</CodEmp>
+    <CodCli>12193</CodCli>
+    <NumDoc>430</NumDoc>
+    <NumPar>1</NumPar>
+    <Serie>PD </Serie>
+    <Status>A</Status>
+    <VlrDoc>187.0400</VlrDoc>
+    <Saldo>187.0400</Saldo>
+    <DtaVen>14/07/2015                    </DtaVen>
+    <DtaEmi>07/07/2015                    </DtaEmi>
+    <QtdPar>1</QtdPar>
+    <atraso>188</atraso>
+  </Table>
+  <Table>
+    <CodEmp>1</CodEmp>
+    <CodCli>12304</CodCli>
+    <NumDoc>432</NumDoc>
+    <NumPar>1</NumPar>
+    <Serie>PD </Serie>
+    <Status>A</Status>
+    <VlrDoc>259.2400</VlrDoc>
+    <Saldo>259.2400</Saldo>
+    <DtaVen>14/07/2015                    </DtaVen>
+    <DtaEmi>07/07/2015                    </DtaEmi>
+    <QtdPar>1</QtdPar>
+    <atraso>188</atraso>
+  </Table>
+  <Table>
+    <CodEmp>1</CodEmp>
+    <CodCli>12366</CodCli>
+    <NumDoc>434</NumDoc>
+    <NumPar>1</NumPar>
+    <Serie>PD </Serie>
+    <Status>A</Status>
+    <VlrDoc>124.7000</VlrDoc>
+    <Saldo>124.7000</Saldo>
+    <DtaVen>14/07/2015                    </DtaVen>
+    <DtaEmi>07/07/2015                    </DtaEmi>
+    <QtdPar>1</QtdPar>
+    <atraso>188</atraso>
+  </Table>
+  <Table>
+    <CodEmp>1</CodEmp>
+    <CodCli>12430</CodCli>
+    <NumDoc>435</NumDoc>
+    <NumPar>1</NumPar>
+    <Serie>PD </Serie>
+    <Status>A</Status>
+    <VlrDoc>100.5600</VlrDoc>
+    <Saldo>100.5600</Saldo>
+    <DtaVen>14/07/2015                    </DtaVen>
+    <DtaEmi>07/07/2015                    </DtaEmi>
+    <QtdPar>1</QtdPar>
+    <atraso>188</atraso>
+  </Table>
+  <Table>
+    <CodEmp>1</CodEmp>
+    <CodCli>12478</CodCli>
+    <NumDoc>436</NumDoc>
+    <NumPar>1</NumPar>
+    <Serie>PD </Serie>
+    <Status>A</Status>
+    <VlrDoc>155.4700</VlrDoc>
+    <Saldo>155.4700</Saldo>
+    <DtaVen>14/07/2015                    </DtaVen>
+    <DtaEmi>07/07/2015                    </DtaEmi>
+    <QtdPar>1</QtdPar>
+    <atraso>188</atraso>
+  </Table>
+  <Table>
+    <CodEmp>1</CodEmp>
+    <CodCli>10727</CodCli>
+    <NumDoc>437</NumDoc>
+    <NumPar>1</NumPar>
+    <Serie>PD </Serie>
+    <Status>A</Status>
+    <VlrDoc>243.5700</VlrDoc>
+    <Saldo>243.5700</Saldo>
+    <DtaVen>14/07/2015                    </DtaVen>
+    <DtaEmi>07/07/2015                    </DtaEmi>
+    <QtdPar>1</QtdPar>
+    <atraso>188</atraso>
+  </Table>
+  <Table>
+    <CodEmp>1</CodEmp>
+    <CodCli>12700</CodCli>
+    <NumDoc>439</NumDoc>
+    <NumPar>1</NumPar>
+    <Serie>PD </Serie>
+    <Status>A</Status>
+    <VlrDoc>369.7900</VlrDoc>
+    <Saldo>369.7900</Saldo>
+    <DtaVen>14/07/2015                    </DtaVen>
+    <DtaEmi>07/07/2015                    </DtaEmi>
+    <QtdPar>1</QtdPar>
+    <atraso>188</atraso>
+  </Table>
+  <Table>
+    <CodEmp>1</CodEmp>
+    <CodCli>12558</CodCli>
+    <NumDoc>440</NumDoc>
+    <NumPar>1</NumPar>
+    <Serie>PD </Serie>
+    <Status>A</Status>
+    <VlrDoc>149.3700</VlrDoc>
+    <Saldo>149.3700</Saldo>
+    <DtaVen>14/07/2015                    </DtaVen>
+    <DtaEmi>07/07/2015                    </DtaEmi>
+    <QtdPar>1</QtdPar>
+    <atraso>188</atraso>
+  </Table>
+  <Table>
+    <CodEmp>1</CodEmp>
+    <CodCli>60125</CodCli>
+    <NumDoc>441</NumDoc>
+    <NumPar>1</NumPar>
+    <Serie>PD </Serie>
+    <Status>A</Status>
+    <VlrDoc>98.8900</VlrDoc>
+    <Saldo>98.8900</Saldo>
+    <DtaVen>14/07/2015                    </DtaVen>
+    <DtaEmi>07/07/2015                    </DtaEmi>
+    <QtdPar>1</QtdPar>
+    <atraso>188</atraso>
+  </Table>
+  <Table>
+    <CodEmp>1</CodEmp>
+    <CodCli>100445</CodCli>
+    <NumDoc>442</NumDoc>
+    <NumPar>1</NumPar>
+    <Serie>PD </Serie>
+    <Status>A</Status>
+    <VlrDoc>430.2900</VlrDoc>
+    <Saldo>430.2900</Saldo>
+    <DtaVen>14/07/2015                    </DtaVen>
+    <DtaEmi>07/07/2015                    </DtaEmi>
+    <QtdPar>1</QtdPar>
+    <atraso>188</atraso>
+  </Table>
+  <Table>
+    <CodEmp>1</CodEmp>
+    <CodCli>12741</CodCli>
+    <NumDoc>443</NumDoc>
+    <NumPar>1</NumPar>
+    <Serie>PD </Serie>
+    <Status>A</Status>
+    <VlrDoc>76.6800</VlrDoc>
+    <Saldo>76.6800</Saldo>
+    <DtaVen>14/07/2015                    </DtaVen>
+    <DtaEmi>07/07/2015                    </DtaEmi>
+    <QtdPar>1</QtdPar>
+    <atraso>188</atraso>
+  </Table>
+  <Table>
+    <CodEmp>1</CodEmp>
+    <CodCli>12549</CodCli>
+    <NumDoc>445</NumDoc>
+    <NumPar>1</NumPar>
+    <Serie>PD </Serie>
+    <Status>A</Status>
+    <VlrDoc>271.8800</VlrDoc>
+    <Saldo>271.8800</Saldo>
+    <DtaVen>28/07/2015                    </DtaVen>
+    <DtaEmi>07/07/2015                    </DtaEmi>
+    <QtdPar>1</QtdPar>
+    <atraso>174</atraso>
+  </Table>
+  <Table>
+    <CodEmp>1</CodEmp>
+    <CodCli>12554</CodCli>
+    <NumDoc>446</NumDoc>
+    <NumPar>1</NumPar>
+    <Serie>PD </Serie>
+    <Status>A</Status>
+    <VlrDoc>244.3200</VlrDoc>
+    <Saldo>244.3200</Saldo>
+    <DtaVen>28/07/2015                    </DtaVen>
+    <DtaEmi>07/07/2015                    </DtaEmi>
+    <QtdPar>1</QtdPar>
+    <atraso>174</atraso>
+  </Table>
+  <Table>
+    <CodEmp>1</CodEmp>
+    <CodCli>51381</CodCli>
+    <NumDoc>447</NumDoc>
+    <NumPar>1</NumPar>
+    <Serie>PD </Serie>
+    <Status>A</Status>
+    <VlrDoc>377.5800</VlrDoc>
+    <Saldo>377.5800</Saldo>
+    <DtaVen>14/07/2015                    </DtaVen>
+    <DtaEmi>07/07/2015                    </DtaEmi>
+    <QtdPar>1</QtdPar>
+    <atraso>188</atraso>
+  </Table>
+  <Table>
+    <CodEmp>1</CodEmp>
+    <CodCli>12409</CodCli>
+    <NumDoc>448</NumDoc>
+    <NumPar>1</NumPar>
+    <Serie>PD </Serie>
+    <Status>A</Status>
+    <VlrDoc>175.6500</VlrDoc>
+    <Saldo>175.6500</Saldo>
+    <DtaVen>14/07/2015                    </DtaVen>
+    <DtaEmi>07/07/2015                    </DtaEmi>
+    <QtdPar>1</QtdPar>
+    <atraso>188</atraso>
+  </Table>
+  <Table>
+    <CodEmp>1</CodEmp>
+    <CodCli>69786</CodCli>
+    <NumDoc>554</NumDoc>
+    <NumPar>1</NumPar>
+    <Serie>PD </Serie>
+    <Status>A</Status>
+    <VlrDoc>160.1300</VlrDoc>
+    <Saldo>160.1300</Saldo>
+    <DtaVen>16/07/2015                    </DtaVen>
+    <DtaEmi>09/07/2015                    </DtaEmi>
+    <QtdPar>1</QtdPar>
+    <atraso>186</atraso>
+  </Table>
+  <Table>
+    <CodEmp>1</CodEmp>
+    <CodCli>12578</CodCli>
+    <NumDoc>555</NumDoc>
+    <NumPar>1</NumPar>
+    <Serie>PD </Serie>
+    <Status>A</Status>
+    <VlrDoc>65.9400</VlrDoc>
+    <Saldo>65.9400</Saldo>
+    <DtaVen>16/07/2015                    </DtaVen>
+    <DtaEmi>09/07/2015                    </DtaEmi>
+    <QtdPar>1</QtdPar>
+    <atraso>186</atraso>
+  </Table>
+  <Table>
+    <CodEmp>1</CodEmp>
+    <CodCli>69375</CodCli>
+    <NumDoc>556</NumDoc>
+    <NumPar>1</NumPar>
+    <Serie>PD </Serie>
+    <Status>A</Status>
+    <VlrDoc>264.4000</VlrDoc>
+    <Saldo>264.4000</Saldo>
+    <DtaVen>30/07/2015                    </DtaVen>
+    <DtaEmi>09/07/2015                    </DtaEmi>
+    <QtdPar>1</QtdPar>
+    <atraso>172</atraso>
+  </Table>
+  <Table>
+    <CodEmp>1</CodEmp>
+    <CodCli>69848</CodCli>
+    <NumDoc>557</NumDoc>
+    <NumPar>1</NumPar>
+    <Serie>PD </Serie>
+    <Status>A</Status>
+    <VlrDoc>203.7200</VlrDoc>
+    <Saldo>203.7200</Saldo>
+    <DtaVen>16/07/2015                    </DtaVen>
+    <DtaEmi>09/07/2015                    </DtaEmi>
+    <QtdPar>1</QtdPar>
+    <atraso>186</atraso>
+  </Table>
+  <Table>
+    <CodEmp>1</CodEmp>
+    <CodCli>25964</CodCli>
+    <NumDoc>570</NumDoc>
+    <NumPar>1</NumPar>
+    <Serie>PD </Serie>
+    <Status>A</Status>
+    <VlrDoc>863.6000</VlrDoc>
+    <Saldo>863.6000</Saldo>
+    <DtaVen>16/07/2015                    </DtaVen>
+    <DtaEmi>09/07/2015                    </DtaEmi>
+    <QtdPar>1</QtdPar>
+    <atraso>186</atraso>
+  </Table>
+  <Table>
+    <CodEmp>1</CodEmp>
+    <CodCli>12130</CodCli>
+    <NumDoc>571</NumDoc>
+    <NumPar>1</NumPar>
+    <Serie>PD </Serie>
+    <Status>A</Status>
+    <VlrDoc>194.1300</VlrDoc>
+    <Saldo>194.1300</Saldo>
+    <DtaVen>16/07/2015                    </DtaVen>
+    <DtaEmi>09/07/2015                    </DtaEmi>
+    <QtdPar>1</QtdPar>
+    <atraso>186</atraso>
+  </Table>
+  <Table>
+    <CodEmp>1</CodEmp>
+    <CodCli>10423</CodCli>
+    <NumDoc>572</NumDoc>
+    <NumPar>1</NumPar>
+    <Serie>PD </Serie>
+    <Status>A</Status>
+    <VlrDoc>361.0300</VlrDoc>
+    <Saldo>361.0300</Saldo>
+    <DtaVen>16/07/2015                    </DtaVen>
+    <DtaEmi>09/07/2015                    </DtaEmi>
+    <QtdPar>1</QtdPar>
+    <atraso>186</atraso>
+  </Table>
+  <Table>
+    <CodEmp>1</CodEmp>
+    <CodCli>86503</CodCli>
+    <NumDoc>573</NumDoc>
+    <NumPar>1</NumPar>
+    <Serie>PD </Serie>
+    <Status>A</Status>
+    <VlrDoc>272.9500</VlrDoc>
+    <Saldo>272.9500</Saldo>
+    <DtaVen>30/07/2015                    </DtaVen>
+    <DtaEmi>09/07/2015                    </DtaEmi>
+    <QtdPar>1</QtdPar>
+    <atraso>172</atraso>
+  </Table>
+  <Table>
+    <CodEmp>1</CodEmp>
+    <CodCli>12012</CodCli>
+    <NumDoc>574</NumDoc>
+    <NumPar>1</NumPar>
+    <Serie>PD </Serie>
+    <Status>A</Status>
+    <VlrDoc>150.7600</VlrDoc>
+    <Saldo>150.7600</Saldo>
+    <DtaVen>16/07/2015                    </DtaVen>
+    <DtaEmi>09/07/2015                    </DtaEmi>
+    <QtdPar>1</QtdPar>
+    <atraso>186</atraso>
+  </Table>
+  <Table>
+    <CodEmp>1</CodEmp>
+    <CodCli>12659</CodCli>
+    <NumDoc>575</NumDoc>
+    <NumPar>1</NumPar>
+    <Serie>PD </Serie>
+    <Status>A</Status>
+    <VlrDoc>184.3800</VlrDoc>
+    <Saldo>184.3800</Saldo>
+    <DtaVen>16/07/2015                    </DtaVen>
+    <DtaEmi>09/07/2015                    </DtaEmi>
+    <QtdPar>1</QtdPar>
+    <atraso>186</atraso>
+  </Table>
+  <Table>
+    <CodEmp>1</CodEmp>
+    <CodCli>12705</CodCli>
+    <NumDoc>576</NumDoc>
+    <NumPar>1</NumPar>
+    <Serie>PD </Serie>
+    <Status>A</Status>
+    <VlrDoc>341.5800</VlrDoc>
+    <Saldo>341.5800</Saldo>
+    <DtaVen>16/07/2015                    </DtaVen>
+    <DtaEmi>09/07/2015                    </DtaEmi>
+    <QtdPar>1</QtdPar>
+    <atraso>186</atraso>
+  </Table>
+  <Table>
+    <CodEmp>1</CodEmp>
+    <CodCli>12886</CodCli>
+    <NumDoc>598</NumDoc>
+    <NumPar>1</NumPar>
+    <Serie>PD </Serie>
+    <Status>A</Status>
+    <VlrDoc>96.7300</VlrDoc>
+    <Saldo>96.7300</Saldo>
+    <DtaVen>16/07/2015                    </DtaVen>
+    <DtaEmi>09/07/2015                    </DtaEmi>
+    <QtdPar>1</QtdPar>
+    <atraso>186</atraso>
+  </Table>
+  <Table>
+    <CodEmp>1</CodEmp>
+    <CodCli>12523</CodCli>
+    <NumDoc>599</NumDoc>
+    <NumPar>1</NumPar>
+    <Serie>PD </Serie>
+    <Status>A</Status>
+    <VlrDoc>502.7700</VlrDoc>
+    <Saldo>502.7700</Saldo>
+    <DtaVen>30/07/2015                    </DtaVen>
+    <DtaEmi>09/07/2015                    </DtaEmi>
+    <QtdPar>1</QtdPar>
+    <atraso>172</atraso>
+  </Table>
+  <Table>
+    <CodEmp>1</CodEmp>
+    <CodCli>12582</CodCli>
+    <NumDoc>601</NumDoc>
+    <NumPar>1</NumPar>
+    <Serie>PD </Serie>
+    <Status>A</Status>
+    <VlrDoc>162.3000</VlrDoc>
+    <Saldo>162.3000</Saldo>
+    <DtaVen>16/07/2015                    </DtaVen>
+    <DtaEmi>09/07/2015                    </DtaEmi>
+    <QtdPar>1</QtdPar>
+    <atraso>186</atraso>
+  </Table>
+  <Table>
+    <CodEmp>1</CodEmp>
+    <CodCli>12951</CodCli>
+    <NumDoc>602</NumDoc>
+    <NumPar>1</NumPar>
+    <Serie>PD </Serie>
+    <Status>A</Status>
+    <VlrDoc>71.0100</VlrDoc>
+    <Saldo>71.0100</Saldo>
+    <DtaVen>16/07/2015                    </DtaVen>
+    <DtaEmi>09/07/2015                    </DtaEmi>
+    <QtdPar>1</QtdPar>
+    <atraso>186</atraso>
+  </Table>
+  <Table>
+    <CodEmp>1</CodEmp>
+    <CodCli>12359</CodCli>
+    <NumDoc>603</NumDoc>
+    <NumPar>1</NumPar>
+    <Serie>PD </Serie>
+    <Status>A</Status>
+    <VlrDoc>214.9000</VlrDoc>
+    <Saldo>214.9000</Saldo>
+    <DtaVen>16/07/2015                    </DtaVen>
+    <DtaEmi>09/07/2015                    </DtaEmi>
+    <QtdPar>1</QtdPar>
+    <atraso>186</atraso>
+  </Table>
+  <Table>
+    <CodEmp>1</CodEmp>
+    <CodCli>10386</CodCli>
+    <NumDoc>604</NumDoc>
+    <NumPar>1</NumPar>
+    <Serie>PD </Serie>
+    <Status>A</Status>
+    <VlrDoc>78.0300</VlrDoc>
+    <Saldo>78.0300</Saldo>
+    <DtaVen>16/07/2015                    </DtaVen>
+    <DtaEmi>09/07/2015                    </DtaEmi>
+    <QtdPar>1</QtdPar>
+    <atraso>186</atraso>
+  </Table>
+  <Table>
+    <CodEmp>1</CodEmp>
+    <CodCli>12669</CodCli>
+    <NumDoc>605</NumDoc>
+    <NumPar>1</NumPar>
+    <Serie>PD </Serie>
+    <Status>A</Status>
+    <VlrDoc>274.1700</VlrDoc>
+    <Saldo>274.1700</Saldo>
+    <DtaVen>16/07/2015                    </DtaVen>
+    <DtaEmi>09/07/2015                    </DtaEmi>
+    <QtdPar>1</QtdPar>
+    <atraso>186</atraso>
+  </Table>
+  <Table>
+    <CodEmp>1</CodEmp>
+    <CodCli>12667</CodCli>
+    <NumDoc>606</NumDoc>
+    <NumPar>1</NumPar>
+    <Serie>PD </Serie>
+    <Status>A</Status>
+    <VlrDoc>289.4700</VlrDoc>
+    <Saldo>289.4700</Saldo>
+    <DtaVen>16/07/2015                    </DtaVen>
+    <DtaEmi>09/07/2015                    </DtaEmi>
+    <QtdPar>1</QtdPar>
+    <atraso>186</atraso>
+  </Table>
+  <Table>
+    <CodEmp>1</CodEmp>
+    <CodCli>12169</CodCli>
+    <NumDoc>607</NumDoc>
+    <NumPar>1</NumPar>
+    <Serie>PD </Serie>
+    <Status>A</Status>
+    <VlrDoc>192.2300</VlrDoc>
+    <Saldo>192.2300</Saldo>
+    <DtaVen>16/07/2015                    </DtaVen>
+    <DtaEmi>09/07/2015                    </DtaEmi>
+    <QtdPar>1</QtdPar>
+    <atraso>186</atraso>
+  </Table>
+  <Table>
+    <CodEmp>1</CodEmp>
+    <CodCli>12671</CodCli>
+    <NumDoc>628</NumDoc>
+    <NumPar>1</NumPar>
+    <Serie>PD </Serie>
+    <Status>A</Status>
+    <VlrDoc>182.8100</VlrDoc>
+    <Saldo>182.8100</Saldo>
+    <DtaVen>17/07/2015                    </DtaVen>
+    <DtaEmi>10/07/2015                    </DtaEmi>
+    <QtdPar>1</QtdPar>
+    <atraso>185</atraso>
+  </Table>
+  <Table>
+    <CodEmp>1</CodEmp>
+    <CodCli>12647</CodCli>
+    <NumDoc>654</NumDoc>
+    <NumPar>1</NumPar>
+    <Serie>PD </Serie>
+    <Status>A</Status>
+    <VlrDoc>210.1600</VlrDoc>
+    <Saldo>210.1600</Saldo>
+    <DtaVen>17/07/2015                    </DtaVen>
+    <DtaEmi>10/07/2015                    </DtaEmi>
+    <QtdPar>1</QtdPar>
+    <atraso>185</atraso>
+  </Table>
+  <Table>
+    <CodEmp>1</CodEmp>
+    <CodCli>38491</CodCli>
+    <NumDoc>657</NumDoc>
+    <NumPar>1</NumPar>
+    <Serie>PD </Serie>
+    <Status>A</Status>
+    <VlrDoc>126.2800</VlrDoc>
+    <Saldo>126.2800</Saldo>
+    <DtaVen>17/07/2015                    </DtaVen>
+    <DtaEmi>10/07/2015                    </DtaEmi>
+    <QtdPar>1</QtdPar>
+    <atraso>185</atraso>
+  </Table>
+  <Table>
+    <CodEmp>1</CodEmp>
+    <CodCli>12813</CodCli>
+    <NumDoc>658</NumDoc>
+    <NumPar>1</NumPar>
+    <Serie>PD </Serie>
+    <Status>A</Status>
+    <VlrDoc>87.5200</VlrDoc>
+    <Saldo>87.5200</Saldo>
+    <DtaVen>17/07/2015                    </DtaVen>
+    <DtaEmi>10/07/2015                    </DtaEmi>
+    <QtdPar>1</QtdPar>
+    <atraso>185</atraso>
+  </Table>
+  <Table>
+    <CodEmp>1</CodEmp>
+    <CodCli>12360</CodCli>
+    <NumDoc>669</NumDoc>
+    <NumPar>1</NumPar>
+    <Serie>PD </Serie>
+    <Status>A</Status>
+    <VlrDoc>144.3000</VlrDoc>
+    <Saldo>144.3000</Saldo>
+    <DtaVen>17/07/2015                    </DtaVen>
+    <DtaEmi>10/07/2015                    </DtaEmi>
+    <QtdPar>1</QtdPar>
+    <atraso>185</atraso>
+  </Table>
+  <Table>
+    <CodEmp>1</CodEmp>
+    <CodCli>40227</CodCli>
+    <NumDoc>670</NumDoc>
+    <NumPar>1</NumPar>
+    <Serie>PD </Serie>
+    <Status>A</Status>
+    <VlrDoc>217.9000</VlrDoc>
+    <Saldo>217.9000</Saldo>
+    <DtaVen>17/07/2015                    </DtaVen>
+    <DtaEmi>10/07/2015                    </DtaEmi>
+    <QtdPar>1</QtdPar>
+    <atraso>185</atraso>
+  </Table>
+  <Table>
+    <CodEmp>1</CodEmp>
+    <CodCli>12649</CodCli>
+    <NumDoc>671</NumDoc>
+    <NumPar>1</NumPar>
+    <Serie>PD </Serie>
+    <Status>A</Status>
+    <VlrDoc>577.3600</VlrDoc>
+    <Saldo>577.3600</Saldo>
+    <DtaVen>17/07/2015                    </DtaVen>
+    <DtaEmi>10/07/2015                    </DtaEmi>
+    <QtdPar>1</QtdPar>
+    <atraso>185</atraso>
+  </Table>
+  <Table>
+    <CodEmp>1</CodEmp>
+    <CodCli>88512</CodCli>
+    <NumDoc>672</NumDoc>
+    <NumPar>1</NumPar>
+    <Serie>PD</Serie>
+    <Status>A</Status>
+    <VlrDoc>155.1500</VlrDoc>
+    <Saldo>155.1500</Saldo>
+    <DtaVen>20/07/2015                    </DtaVen>
+    <DtaEmi>13/07/2015                    </DtaEmi>
+    <QtdPar>1</QtdPar>
+    <atraso>182</atraso>
+  </Table>
+  <Table>
+    <CodEmp>1</CodEmp>
+    <CodCli>12478</CodCli>
+    <NumDoc>779</NumDoc>
+    <NumPar>1</NumPar>
+    <Serie>PD </Serie>
+    <Status>A</Status>
+    <VlrDoc>180.0000</VlrDoc>
+    <Saldo>180.0000</Saldo>
+    <DtaVen>21/07/2015                    </DtaVen>
+    <DtaEmi>14/07/2015                    </DtaEmi>
+    <QtdPar>1</QtdPar>
+    <atraso>181</atraso>
+  </Table>
+  <Table>
+    <CodEmp>1</CodEmp>
+    <CodCli>60125</CodCli>
+    <NumDoc>781</NumDoc>
+    <NumPar>1</NumPar>
+    <Serie>PD </Serie>
+    <Status>A</Status>
+    <VlrDoc>147.1200</VlrDoc>
+    <Saldo>147.1200</Saldo>
+    <DtaVen>21/07/2015                    </DtaVen>
+    <DtaEmi>14/07/2015                    </DtaEmi>
+    <QtdPar>1</QtdPar>
+    <atraso>181</atraso>
+  </Table>
+  <Table>
+    <CodEmp>1</CodEmp>
+    <CodCli>12899</CodCli>
+    <NumDoc>799</NumDoc>
+    <NumPar>1</NumPar>
+    <Serie>PD </Serie>
+    <Status>A</Status>
+    <VlrDoc>386.3700</VlrDoc>
+    <Saldo>386.3700</Saldo>
+    <DtaVen>04/08/2015                    </DtaVen>
+    <DtaEmi>14/07/2015                    </DtaEmi>
+    <QtdPar>1</QtdPar>
+    <atraso>167</atraso>
+  </Table>
+  <Table>
+    <CodEmp>1</CodEmp>
+    <CodCli>12193</CodCli>
+    <NumDoc>800</NumDoc>
+    <NumPar>1</NumPar>
+    <Serie>PD </Serie>
+    <Status>A</Status>
+    <VlrDoc>121.7400</VlrDoc>
+    <Saldo>121.7400</Saldo>
+    <DtaVen>21/07/2015                    </DtaVen>
+    <DtaEmi>14/07/2015                    </DtaEmi>
+    <QtdPar>1</QtdPar>
+    <atraso>181</atraso>
+  </Table>
+  <Table>
+    <CodEmp>1</CodEmp>
+    <CodCli>100471</CodCli>
+    <NumDoc>801</NumDoc>
+    <NumPar>1</NumPar>
+    <Serie>PD </Serie>
+    <Status>A</Status>
+    <VlrDoc>94.8800</VlrDoc>
+    <Saldo>94.8800</Saldo>
+    <DtaVen>21/07/2015                    </DtaVen>
+    <DtaEmi>14/07/2015                    </DtaEmi>
+    <QtdPar>1</QtdPar>
+    <atraso>181</atraso>
+  </Table>
+  <Table>
+    <CodEmp>1</CodEmp>
+    <CodCli>100472</CodCli>
+    <NumDoc>802</NumDoc>
+    <NumPar>1</NumPar>
+    <Serie>PD </Serie>
+    <Status>A</Status>
+    <VlrDoc>208.9700</VlrDoc>
+    <Saldo>208.9700</Saldo>
+    <DtaVen>21/07/2015                    </DtaVen>
+    <DtaEmi>14/07/2015                    </DtaEmi>
+    <QtdPar>1</QtdPar>
+    <atraso>181</atraso>
+  </Table>
+  <Table>
+    <CodEmp>1</CodEmp>
+    <CodCli>100445</CodCli>
+    <NumDoc>803</NumDoc>
+    <NumPar>1</NumPar>
+    <Serie>PD </Serie>
+    <Status>A</Status>
+    <VlrDoc>514.9500</VlrDoc>
+    <Saldo>514.9500</Saldo>
+    <DtaVen>21/07/2015                    </DtaVen>
+    <DtaEmi>14/07/2015                    </DtaEmi>
+    <QtdPar>1</QtdPar>
+    <atraso>181</atraso>
+  </Table>
+  <Table>
+    <CodEmp>1</CodEmp>
+    <CodCli>12097</CodCli>
+    <NumDoc>805</NumDoc>
+    <NumPar>1</NumPar>
+    <Serie>PD </Serie>
+    <Status>A</Status>
+    <VlrDoc>125.5600</VlrDoc>
+    <Saldo>125.5600</Saldo>
+    <DtaVen>21/07/2015                    </DtaVen>
+    <DtaEmi>14/07/2015                    </DtaEmi>
+    <QtdPar>1</QtdPar>
+    <atraso>181</atraso>
+  </Table>
+  <Table>
+    <CodEmp>1</CodEmp>
+    <CodCli>12598</CodCli>
+    <NumDoc>806</NumDoc>
+    <NumPar>1</NumPar>
+    <Serie>PD </Serie>
+    <Status>A</Status>
+    <VlrDoc>62.8100</VlrDoc>
+    <Saldo>62.8100</Saldo>
+    <DtaVen>21/07/2015                    </DtaVen>
+    <DtaEmi>14/07/2015                    </DtaEmi>
+    <QtdPar>1</QtdPar>
+    <atraso>181</atraso>
+  </Table>
+  <Table>
+    <CodEmp>1</CodEmp>
+    <CodCli>12549</CodCli>
+    <NumDoc>807</NumDoc>
+    <NumPar>1</NumPar>
+    <Serie>PD </Serie>
+    <Status>A</Status>
+    <VlrDoc>348.6200</VlrDoc>
+    <Saldo>348.6200</Saldo>
+    <DtaVen>04/08/2015                    </DtaVen>
+    <DtaEmi>14/07/2015                    </DtaEmi>
+    <QtdPar>1</QtdPar>
+    <atraso>167</atraso>
+  </Table>
+  <Table>
+    <CodEmp>1</CodEmp>
+    <CodCli>12558</CodCli>
+    <NumDoc>810</NumDoc>
+    <NumPar>1</NumPar>
+    <Serie>PD </Serie>
+    <Status>A</Status>
+    <VlrDoc>221.9100</VlrDoc>
+    <Saldo>221.9100</Saldo>
+    <DtaVen>21/07/2015                    </DtaVen>
+    <DtaEmi>14/07/2015                    </DtaEmi>
+    <QtdPar>1</QtdPar>
+    <atraso>181</atraso>
+  </Table>
+  <Table>
+    <CodEmp>1</CodEmp>
+    <CodCli>12700</CodCli>
+    <NumDoc>811</NumDoc>
+    <NumPar>1</NumPar>
+    <Serie>PD </Serie>
+    <Status>A</Status>
+    <VlrDoc>246.3300</VlrDoc>
+    <Saldo>246.3300</Saldo>
+    <DtaVen>21/07/2015                    </DtaVen>
+    <DtaEmi>14/07/2015                    </DtaEmi>
+    <QtdPar>1</QtdPar>
+    <atraso>181</atraso>
+  </Table>
+  <Table>
+    <CodEmp>1</CodEmp>
+    <CodCli>12786</CodCli>
+    <NumDoc>812</NumDoc>
+    <NumPar>1</NumPar>
+    <Serie>PD </Serie>
+    <Status>A</Status>
+    <VlrDoc>105.0200</VlrDoc>
+    <Saldo>105.0200</Saldo>
+    <DtaVen>21/07/2015                    </DtaVen>
+    <DtaEmi>14/07/2015                    </DtaEmi>
+    <QtdPar>1</QtdPar>
+    <atraso>181</atraso>
+  </Table>
+  <Table>
+    <CodEmp>1</CodEmp>
+    <CodCli>12304</CodCli>
+    <NumDoc>813</NumDoc>
+    <NumPar>1</NumPar>
+    <Serie>PD </Serie>
+    <Status>A</Status>
+    <VlrDoc>223.9300</VlrDoc>
+    <Saldo>223.9300</Saldo>
+    <DtaVen>21/07/2015                    </DtaVen>
+    <DtaEmi>14/07/2015                    </DtaEmi>
+    <QtdPar>1</QtdPar>
+    <atraso>181</atraso>
+  </Table>
+  <Table>
+    <CodEmp>1</CodEmp>
+    <CodCli>10727</CodCli>
+    <NumDoc>814</NumDoc>
+    <NumPar>1</NumPar>
+    <Serie>PD </Serie>
+    <Status>A</Status>
+    <VlrDoc>167.9700</VlrDoc>
+    <Saldo>167.9700</Saldo>
+    <DtaVen>21/07/2015                    </DtaVen>
+    <DtaEmi>14/07/2015                    </DtaEmi>
+    <QtdPar>1</QtdPar>
+    <atraso>181</atraso>
+  </Table>
+  <Table>
+    <CodEmp>1</CodEmp>
+    <CodCli>12659</CodCli>
+    <NumDoc>914</NumDoc>
+    <NumPar>1</NumPar>
+    <Serie>PD </Serie>
+    <Status>A</Status>
+    <VlrDoc>261.9900</VlrDoc>
+    <Saldo>261.9900</Saldo>
+    <DtaVen>23/07/2015                    </DtaVen>
+    <DtaEmi>16/07/2015                    </DtaEmi>
+    <QtdPar>1</QtdPar>
+    <atraso>179</atraso>
+  </Table>
+  <Table>
+    <CodEmp>1</CodEmp>
+    <CodCli>12841</CodCli>
+    <NumDoc>915</NumDoc>
+    <NumPar>1</NumPar>
+    <Serie>PD </Serie>
+    <Status>A</Status>
+    <VlrDoc>69.7400</VlrDoc>
+    <Saldo>69.7400</Saldo>
+    <DtaVen>23/07/2015                    </DtaVen>
+    <DtaEmi>16/07/2015                    </DtaEmi>
+    <QtdPar>1</QtdPar>
+    <atraso>179</atraso>
+  </Table>
+  <Table>
+    <CodEmp>1</CodEmp>
+    <CodCli>10423</CodCli>
+    <NumDoc>916</NumDoc>
+    <NumPar>1</NumPar>
+    <Serie>PD </Serie>
+    <Status>A</Status>
+    <VlrDoc>134.9800</VlrDoc>
+    <Saldo>134.9800</Saldo>
+    <DtaVen>23/07/2015                    </DtaVen>
+    <DtaEmi>16/07/2015                    </DtaEmi>
+    <QtdPar>1</QtdPar>
+    <atraso>179</atraso>
+  </Table>
+  <Table>
+    <CodEmp>1</CodEmp>
+    <CodCli>25964</CodCli>
+    <NumDoc>917</NumDoc>
+    <NumPar>1</NumPar>
+    <Serie>PD </Serie>
+    <Status>A</Status>
+    <VlrDoc>623.4100</VlrDoc>
+    <Saldo>623.4100</Saldo>
+    <DtaVen>23/07/2015                    </DtaVen>
+    <DtaEmi>16/07/2015                    </DtaEmi>
+    <QtdPar>1</QtdPar>
+    <atraso>179</atraso>
+  </Table>
+  <Table>
+    <CodEmp>1</CodEmp>
+    <CodCli>69786</CodCli>
+    <NumDoc>977</NumDoc>
+    <NumPar>1</NumPar>
+    <Serie>PD </Serie>
+    <Status>A</Status>
+    <VlrDoc>106.0700</VlrDoc>
+    <Saldo>106.0700</Saldo>
+    <DtaVen>23/07/2015                    </DtaVen>
+    <DtaEmi>16/07/2015                    </DtaEmi>
+    <QtdPar>1</QtdPar>
+    <atraso>179</atraso>
+  </Table>
+  <Table>
+    <CodEmp>1</CodEmp>
+    <CodCli>12578</CodCli>
+    <NumDoc>978</NumDoc>
+    <NumPar>1</NumPar>
+    <Serie>PD </Serie>
+    <Status>A</Status>
+    <VlrDoc>128.9500</VlrDoc>
+    <Saldo>128.9500</Saldo>
+    <DtaVen>23/07/2015                    </DtaVen>
+    <DtaEmi>16/07/2015                    </DtaEmi>
+    <QtdPar>1</QtdPar>
+    <atraso>179</atraso>
+  </Table>
+  <Table>
+    <CodEmp>1</CodEmp>
+    <CodCli>69848</CodCli>
+    <NumDoc>979</NumDoc>
+    <NumPar>1</NumPar>
+    <Serie>PD </Serie>
+    <Status>A</Status>
+    <VlrDoc>258.6900</VlrDoc>
+    <Saldo>258.6900</Saldo>
+    <DtaVen>23/07/2015                    </DtaVen>
+    <DtaEmi>16/07/2015                    </DtaEmi>
+    <QtdPar>1</QtdPar>
+    <atraso>179</atraso>
+  </Table>
+  <Table>
+    <CodEmp>1</CodEmp>
+    <CodCli>69375</CodCli>
+    <NumDoc>980</NumDoc>
+    <NumPar>1</NumPar>
+    <Serie>PD </Serie>
+    <Status>A</Status>
+    <VlrDoc>102.8500</VlrDoc>
+    <Saldo>102.8500</Saldo>
+    <DtaVen>06/08/2015                    </DtaVen>
+    <DtaEmi>16/07/2015                    </DtaEmi>
+    <QtdPar>1</QtdPar>
+    <atraso>165</atraso>
+  </Table>
+  <Table>
+    <CodEmp>1</CodEmp>
+    <CodCli>69375</CodCli>
+    <NumDoc>981</NumDoc>
+    <NumPar>1</NumPar>
+    <Serie>PD </Serie>
+    <Status>A</Status>
+    <VlrDoc>220.6700</VlrDoc>
+    <Saldo>220.6700</Saldo>
+    <DtaVen>06/08/2015                    </DtaVen>
+    <DtaEmi>16/07/2015                    </DtaEmi>
+    <QtdPar>1</QtdPar>
+    <atraso>165</atraso>
+  </Table>
+  <Table>
+    <CodEmp>1</CodEmp>
+    <CodCli>12523</CodCli>
+    <NumDoc>982</NumDoc>
+    <NumPar>1</NumPar>
+    <Serie>PD </Serie>
+    <Status>A</Status>
+    <VlrDoc>467.7500</VlrDoc>
+    <Saldo>467.7500</Saldo>
+    <DtaVen>13/08/2015                    </DtaVen>
+    <DtaEmi>16/07/2015                    </DtaEmi>
+    <QtdPar>1</QtdPar>
+    <atraso>158</atraso>
+  </Table>
+  <Table>
+    <CodEmp>1</CodEmp>
+    <CodCli>12886</CodCli>
+    <NumDoc>983</NumDoc>
+    <NumPar>1</NumPar>
+    <Serie>PD </Serie>
+    <Status>A</Status>
+    <VlrDoc>100.0900</VlrDoc>
+    <Saldo>100.0900</Saldo>
+    <DtaVen>23/07/2015                    </DtaVen>
+    <DtaEmi>16/07/2015                    </DtaEmi>
+    <QtdPar>1</QtdPar>
+    <atraso>179</atraso>
+  </Table>
+  <Table>
+    <CodEmp>1</CodEmp>
+    <CodCli>77766</CodCli>
+    <NumDoc>984</NumDoc>
+    <NumPar>1</NumPar>
+    <Serie>PD </Serie>
+    <Status>A</Status>
+    <VlrDoc>228.3000</VlrDoc>
+    <Saldo>228.3000</Saldo>
+    <DtaVen>23/07/2015                    </DtaVen>
+    <DtaEmi>16/07/2015                    </DtaEmi>
+    <QtdPar>1</QtdPar>
+    <atraso>179</atraso>
+  </Table>
+  <Table>
+    <CodEmp>1</CodEmp>
+    <CodCli>12359</CodCli>
+    <NumDoc>985</NumDoc>
+    <NumPar>1</NumPar>
+    <Serie>PD </Serie>
+    <Status>A</Status>
+    <VlrDoc>185.9200</VlrDoc>
+    <Saldo>185.9200</Saldo>
+    <DtaVen>23/07/2015                    </DtaVen>
+    <DtaEmi>16/07/2015                    </DtaEmi>
+    <QtdPar>1</QtdPar>
+    <atraso>179</atraso>
+  </Table>
+  <Table>
+    <CodEmp>1</CodEmp>
+    <CodCli>12667</CodCli>
+    <NumDoc>986</NumDoc>
+    <NumPar>1</NumPar>
+    <Serie>PD </Serie>
+    <Status>A</Status>
+    <VlrDoc>125.3300</VlrDoc>
+    <Saldo>125.3300</Saldo>
+    <DtaVen>23/07/2015                    </DtaVen>
+    <DtaEmi>16/07/2015                    </DtaEmi>
+    <QtdPar>1</QtdPar>
+    <atraso>179</atraso>
+  </Table>
+  <Table>
+    <CodEmp>1</CodEmp>
+    <CodCli>12169</CodCli>
+    <NumDoc>987</NumDoc>
+    <NumPar>1</NumPar>
+    <Serie>PD </Serie>
+    <Status>A</Status>
+    <VlrDoc>81.9400</VlrDoc>
+    <Saldo>81.9400</Saldo>
+    <DtaVen>23/07/2015                    </DtaVen>
+    <DtaEmi>16/07/2015                    </DtaEmi>
+    <QtdPar>1</QtdPar>
+    <atraso>179</atraso>
+  </Table>
+  <Table>
+    <CodEmp>1</CodEmp>
+    <CodCli>12630</CodCli>
+    <NumDoc>988</NumDoc>
+    <NumPar>1</NumPar>
+    <Serie>PD </Serie>
+    <Status>A</Status>
+    <VlrDoc>140.1200</VlrDoc>
+    <Saldo>140.1200</Saldo>
+    <DtaVen>23/07/2015                    </DtaVen>
+    <DtaEmi>16/07/2015                    </DtaEmi>
+    <QtdPar>1</QtdPar>
+    <atraso>179</atraso>
+  </Table>
+  <Table>
+    <CodEmp>1</CodEmp>
+    <CodCli>12669</CodCli>
+    <NumDoc>989</NumDoc>
+    <NumPar>1</NumPar>
+    <Serie>PD </Serie>
+    <Status>A</Status>
+    <VlrDoc>169.8800</VlrDoc>
+    <Saldo>169.8800</Saldo>
+    <DtaVen>23/07/2015                    </DtaVen>
+    <DtaEmi>16/07/2015                    </DtaEmi>
+    <QtdPar>1</QtdPar>
+    <atraso>179</atraso>
+  </Table>
+  <Table>
+    <CodEmp>1</CodEmp>
+    <CodCli>10179</CodCli>
+    <NumDoc>1020</NumDoc>
+    <NumPar>1</NumPar>
+    <Serie>PD </Serie>
+    <Status>A</Status>
+    <VlrDoc>147.3600</VlrDoc>
+    <Saldo>147.3600</Saldo>
+    <DtaVen>24/07/2015                    </DtaVen>
+    <DtaEmi>17/07/2015                    </DtaEmi>
+    <QtdPar>1</QtdPar>
+    <atraso>178</atraso>
+  </Table>
+  <Table>
+    <CodEmp>1</CodEmp>
+    <CodCli>12360</CodCli>
+    <NumDoc>1022</NumDoc>
+    <NumPar>1</NumPar>
+    <Serie>PD </Serie>
+    <Status>A</Status>
+    <VlrDoc>139.3900</VlrDoc>
+    <Saldo>139.3900</Saldo>
+    <DtaVen>24/07/2015                    </DtaVen>
+    <DtaEmi>17/07/2015                    </DtaEmi>
+    <QtdPar>1</QtdPar>
+    <atraso>178</atraso>
+  </Table>
+  <Table>
+    <CodEmp>1</CodEmp>
+    <CodCli>40227</CodCli>
+    <NumDoc>1023</NumDoc>
+    <NumPar>1</NumPar>
+    <Serie>PD </Serie>
+    <Status>A</Status>
+    <VlrDoc>288.6300</VlrDoc>
+    <Saldo>288.6300</Saldo>
+    <DtaVen>24/07/2015                    </DtaVen>
+    <DtaEmi>17/07/2015                    </DtaEmi>
+    <QtdPar>1</QtdPar>
+    <atraso>178</atraso>
+  </Table>
+  <Table>
+    <CodEmp>1</CodEmp>
+    <CodCli>12649</CodCli>
+    <NumDoc>1024</NumDoc>
+    <NumPar>1</NumPar>
+    <Serie>PD </Serie>
+    <Status>A</Status>
+    <VlrDoc>114.4200</VlrDoc>
+    <Saldo>114.4200</Saldo>
+    <DtaVen>24/07/2015                    </DtaVen>
+    <DtaEmi>17/07/2015                    </DtaEmi>
+    <QtdPar>1</QtdPar>
+    <atraso>178</atraso>
+  </Table>
+  <Table>
+    <CodEmp>1</CodEmp>
+    <CodCli>12902</CodCli>
+    <NumDoc>1025</NumDoc>
+    <NumPar>1</NumPar>
+    <Serie>PD </Serie>
+    <Status>A</Status>
+    <VlrDoc>298.2900</VlrDoc>
+    <Saldo>298.2900</Saldo>
+    <DtaVen>24/07/2015                    </DtaVen>
+    <DtaEmi>17/07/2015                    </DtaEmi>
+    <QtdPar>1</QtdPar>
+    <atraso>178</atraso>
+  </Table>
+  <Table>
+    <CodEmp>1</CodEmp>
+    <CodCli>12647</CodCli>
+    <NumDoc>1027</NumDoc>
+    <NumPar>1</NumPar>
+    <Serie>PD </Serie>
+    <Status>A</Status>
+    <VlrDoc>110.8100</VlrDoc>
+    <Saldo>110.8100</Saldo>
+    <DtaVen>24/07/2015                    </DtaVen>
+    <DtaEmi>17/07/2015                    </DtaEmi>
+    <QtdPar>1</QtdPar>
+    <atraso>178</atraso>
+  </Table>
+  <Table>
+    <CodEmp>1</CodEmp>
+    <CodCli>12813</CodCli>
+    <NumDoc>1028</NumDoc>
+    <NumPar>1</NumPar>
+    <Serie>PD </Serie>
+    <Status>A</Status>
+    <VlrDoc>116.1000</VlrDoc>
+    <Saldo>116.1000</Saldo>
+    <DtaVen>24/07/2015                    </DtaVen>
+    <DtaEmi>17/07/2015                    </DtaEmi>
+    <QtdPar>1</QtdPar>
+    <atraso>178</atraso>
+  </Table>
+  <Table>
+    <CodEmp>1</CodEmp>
+    <CodCli>60125</CodCli>
+    <NumDoc>60125</NumDoc>
+    <NumPar>1</NumPar>
+    <Serie>PD</Serie>
+    <Status>A</Status>
+    <VlrDoc>565.1600</VlrDoc>
+    <Saldo>565.1600</Saldo>
+    <DtaVen>05/08/2015                    </DtaVen>
+    <DtaEmi>21/07/2015                    </DtaEmi>
+    <QtdPar>1</QtdPar>
+    <atraso>166</atraso>
+  </Table>
+  <Table>
+    <CodEmp>1</CodEmp>
+    <CodCli>12776</CodCli>
+    <NumDoc>1113</NumDoc>
+    <NumPar>1</NumPar>
+    <Serie>PD </Serie>
+    <Status>A</Status>
+    <VlrDoc>217.6900</VlrDoc>
+    <Saldo>217.6900</Saldo>
+    <DtaVen>28/07/2015                    </DtaVen>
+    <DtaEmi>21/07/2015                    </DtaEmi>
+    <QtdPar>1</QtdPar>
+    <atraso>174</atraso>
+  </Table>
+  <Table>
+    <CodEmp>1</CodEmp>
+    <CodCli>12109</CodCli>
+    <NumDoc>1114</NumDoc>
+    <NumPar>1</NumPar>
+    <Serie>PD </Serie>
+    <Status>A</Status>
+    <VlrDoc>143.0500</VlrDoc>
+    <Saldo>143.0500</Saldo>
+    <DtaVen>28/07/2015                    </DtaVen>
+    <DtaEmi>21/07/2015                    </DtaEmi>
+    <QtdPar>1</QtdPar>
+    <atraso>174</atraso>
+  </Table>
+  <Table>
+    <CodEmp>1</CodEmp>
+    <CodCli>12888</CodCli>
+    <NumDoc>1115</NumDoc>
+    <NumPar>1</NumPar>
+    <Serie>PD </Serie>
+    <Status>A</Status>
+    <VlrDoc>58.3200</VlrDoc>
+    <Saldo>58.3200</Saldo>
+    <DtaVen>28/07/2015                    </DtaVen>
+    <DtaEmi>21/07/2015                    </DtaEmi>
+    <QtdPar>1</QtdPar>
+    <atraso>174</atraso>
+  </Table>
+  <Table>
+    <CodEmp>1</CodEmp>
+    <CodCli>12430</CodCli>
+    <NumDoc>1116</NumDoc>
+    <NumPar>1</NumPar>
+    <Serie>PD </Serie>
+    <Status>A</Status>
+    <VlrDoc>84.4200</VlrDoc>
+    <Saldo>84.4200</Saldo>
+    <DtaVen>28/07/2015                    </DtaVen>
+    <DtaEmi>21/07/2015                    </DtaEmi>
+    <QtdPar>1</QtdPar>
+    <atraso>174</atraso>
+  </Table>
+  <Table>
+    <CodEmp>1</CodEmp>
+    <CodCli>10727</CodCli>
+    <NumDoc>1117</NumDoc>
+    <NumPar>1</NumPar>
+    <Serie>PD </Serie>
+    <Status>A</Status>
+    <VlrDoc>227.5400</VlrDoc>
+    <Saldo>227.5400</Saldo>
+    <DtaVen>28/07/2015                    </DtaVen>
+    <DtaEmi>21/07/2015                    </DtaEmi>
+    <QtdPar>1</QtdPar>
+    <atraso>174</atraso>
+  </Table>
+  <Table>
+    <CodEmp>1</CodEmp>
+    <CodCli>12786</CodCli>
+    <NumDoc>1118</NumDoc>
+    <NumPar>1</NumPar>
+    <Serie>PD </Serie>
+    <Status>A</Status>
+    <VlrDoc>79.7000</VlrDoc>
+    <Saldo>79.7000</Saldo>
+    <DtaVen>28/07/2015                    </DtaVen>
+    <DtaEmi>21/07/2015                    </DtaEmi>
+    <QtdPar>1</QtdPar>
+    <atraso>174</atraso>
+  </Table>
+  <Table>
+    <CodEmp>1</CodEmp>
+    <CodCli>12700</CodCli>
+    <NumDoc>1119</NumDoc>
+    <NumPar>1</NumPar>
+    <Serie>PD </Serie>
+    <Status>A</Status>
+    <VlrDoc>141.9000</VlrDoc>
+    <Saldo>141.9000</Saldo>
+    <DtaVen>28/07/2015                    </DtaVen>
+    <DtaEmi>21/07/2015                    </DtaEmi>
+    <QtdPar>1</QtdPar>
+    <atraso>174</atraso>
+  </Table>
+  <Table>
+    <CodEmp>1</CodEmp>
+    <CodCli>12558</CodCli>
+    <NumDoc>1120</NumDoc>
+    <NumPar>1</NumPar>
+    <Serie>PD </Serie>
+    <Status>A</Status>
+    <VlrDoc>134.9300</VlrDoc>
+    <Saldo>134.9300</Saldo>
+    <DtaVen>28/07/2015                    </DtaVen>
+    <DtaEmi>21/07/2015                    </DtaEmi>
+    <QtdPar>1</QtdPar>
+    <atraso>174</atraso>
+  </Table>
+  <Table>
+    <CodEmp>1</CodEmp>
+    <CodCli>60125</CodCli>
+    <NumDoc>1121</NumDoc>
+    <NumPar>1</NumPar>
+    <Serie>PD </Serie>
+    <Status>A</Status>
+    <VlrDoc>117.0000</VlrDoc>
+    <Saldo>117.0000</Saldo>
+    <DtaVen>28/07/2015                    </DtaVen>
+    <DtaEmi>21/07/2015                    </DtaEmi>
+    <QtdPar>1</QtdPar>
+    <atraso>174</atraso>
+  </Table>
+  <Table>
+    <CodEmp>1</CodEmp>
+    <CodCli>12549</CodCli>
+    <NumDoc>1123</NumDoc>
+    <NumPar>1</NumPar>
+    <Serie>PD </Serie>
+    <Status>A</Status>
+    <VlrDoc>405.3500</VlrDoc>
+    <Saldo>405.3500</Saldo>
+    <DtaVen>11/08/2015                    </DtaVen>
+    <DtaEmi>21/07/2015                    </DtaEmi>
+    <QtdPar>1</QtdPar>
+    <atraso>160</atraso>
+  </Table>
+  <Table>
+    <CodEmp>1</CodEmp>
+    <CodCli>12899</CodCli>
+    <NumDoc>1124</NumDoc>
+    <NumPar>1</NumPar>
+    <Serie>PD </Serie>
+    <Status>A</Status>
+    <VlrDoc>210.7600</VlrDoc>
+    <Saldo>210.7600</Saldo>
+    <DtaVen>11/08/2015                    </DtaVen>
+    <DtaEmi>21/07/2015                    </DtaEmi>
+    <QtdPar>1</QtdPar>
+    <atraso>160</atraso>
+  </Table>
+  <Table>
+    <CodEmp>1</CodEmp>
+    <CodCli>12554</CodCli>
+    <NumDoc>1125</NumDoc>
+    <NumPar>1</NumPar>
+    <Serie>PD </Serie>
+    <Status>A</Status>
+    <VlrDoc>436.1900</VlrDoc>
+    <Saldo>436.1900</Saldo>
+    <DtaVen>11/08/2015                    </DtaVen>
+    <DtaEmi>21/07/2015                    </DtaEmi>
+    <QtdPar>1</QtdPar>
+    <atraso>160</atraso>
+  </Table>
+  <Table>
+    <CodEmp>1</CodEmp>
+    <CodCli>100445</CodCli>
+    <NumDoc>1126</NumDoc>
+    <NumPar>1</NumPar>
+    <Serie>PD </Serie>
+    <Status>A</Status>
+    <VlrDoc>562.0300</VlrDoc>
+    <Saldo>562.0300</Saldo>
+    <DtaVen>28/07/2015                    </DtaVen>
+    <DtaEmi>21/07/2015                    </DtaEmi>
+    <QtdPar>1</QtdPar>
+    <atraso>174</atraso>
+  </Table>
+  <Table>
+    <CodEmp>1</CodEmp>
+    <CodCli>12409</CodCli>
+    <NumDoc>1127</NumDoc>
+    <NumPar>1</NumPar>
+    <Serie>PD </Serie>
+    <Status>A</Status>
+    <VlrDoc>139.9300</VlrDoc>
+    <Saldo>139.9300</Saldo>
+    <DtaVen>28/07/2015                    </DtaVen>
+    <DtaEmi>21/07/2015                    </DtaEmi>
+    <QtdPar>1</QtdPar>
+    <atraso>174</atraso>
+  </Table>
+  <Table>
+    <CodEmp>1</CodEmp>
+    <CodCli>12097</CodCli>
+    <NumDoc>1128</NumDoc>
+    <NumPar>1</NumPar>
+    <Serie>PD </Serie>
+    <Status>A</Status>
+    <VlrDoc>244.3800</VlrDoc>
+    <Saldo>244.3800</Saldo>
+    <DtaVen>28/07/2015                    </DtaVen>
+    <DtaEmi>21/07/2015                    </DtaEmi>
+    <QtdPar>1</QtdPar>
+    <atraso>174</atraso>
+  </Table>
+  <Table>
+    <CodEmp>1</CodEmp>
+    <CodCli>12598</CodCli>
+    <NumDoc>1129</NumDoc>
+    <NumPar>1</NumPar>
+    <Serie>PD </Serie>
+    <Status>A</Status>
+    <VlrDoc>103.6200</VlrDoc>
+    <Saldo>103.6200</Saldo>
+    <DtaVen>28/07/2015                    </DtaVen>
+    <DtaEmi>21/07/2015                    </DtaEmi>
+    <QtdPar>1</QtdPar>
+    <atraso>174</atraso>
+  </Table>
+  <Table>
+    <CodEmp>1</CodEmp>
+    <CodCli>12741</CodCli>
+    <NumDoc>1130</NumDoc>
+    <NumPar>1</NumPar>
+    <Serie>PD </Serie>
+    <Status>A</Status>
+    <VlrDoc>134.0200</VlrDoc>
+    <Saldo>134.0200</Saldo>
+    <DtaVen>28/07/2015                    </DtaVen>
+    <DtaEmi>21/07/2015                    </DtaEmi>
+    <QtdPar>1</QtdPar>
+    <atraso>174</atraso>
+  </Table>
+  <Table>
+    <CodEmp>1</CodEmp>
+    <CodCli>12304</CodCli>
+    <NumDoc>1131</NumDoc>
+    <NumPar>1</NumPar>
+    <Serie>PD </Serie>
+    <Status>A</Status>
+    <VlrDoc>113.1200</VlrDoc>
+    <Saldo>113.1200</Saldo>
+    <DtaVen>28/07/2015                    </DtaVen>
+    <DtaEmi>21/07/2015                    </DtaEmi>
+    <QtdPar>1</QtdPar>
+    <atraso>174</atraso>
+  </Table>
+  <Table>
+    <CodEmp>1</CodEmp>
+    <CodCli>12229</CodCli>
+    <NumDoc>1260</NumDoc>
+    <NumPar>1</NumPar>
+    <Serie>PD </Serie>
+    <Status>A</Status>
+    <VlrDoc>33.0000</VlrDoc>
+    <Saldo>33.0000</Saldo>
+    <DtaVen>30/07/2015                    </DtaVen>
+    <DtaEmi>23/07/2015                    </DtaEmi>
+    <QtdPar>1</QtdPar>
+    <atraso>172</atraso>
+  </Table>
+  <Table>
+    <CodEmp>1</CodEmp>
+    <CodCli>12359</CodCli>
+    <NumDoc>1261</NumDoc>
+    <NumPar>1</NumPar>
+    <Serie>PD </Serie>
+    <Status>A</Status>
+    <VlrDoc>26.5300</VlrDoc>
+    <Saldo>26.5300</Saldo>
+    <DtaVen>23/07/2015                    </DtaVen>
+    <DtaEmi>23/07/2015                    </DtaEmi>
+    <QtdPar>1</QtdPar>
+    <atraso>179</atraso>
+  </Table>
+  <Table>
+    <CodEmp>1</CodEmp>
+    <CodCli>12667</CodCli>
+    <NumDoc>1262</NumDoc>
+    <NumPar>1</NumPar>
+    <Serie>PD </Serie>
+    <Status>A</Status>
+    <VlrDoc>259.4300</VlrDoc>
+    <Saldo>259.4300</Saldo>
+    <DtaVen>30/07/2015                    </DtaVen>
+    <DtaEmi>23/07/2015                    </DtaEmi>
+    <QtdPar>1</QtdPar>
+    <atraso>172</atraso>
+  </Table>
+  <Table>
+    <CodEmp>1</CodEmp>
+    <CodCli>12523</CodCli>
+    <NumDoc>1263</NumDoc>
+    <NumPar>1</NumPar>
+    <Serie>PD </Serie>
+    <Status>A</Status>
+    <VlrDoc>475.9800</VlrDoc>
+    <Saldo>475.9800</Saldo>
+    <DtaVen>20/08/2015                    </DtaVen>
+    <DtaEmi>23/07/2015                    </DtaEmi>
+    <QtdPar>1</QtdPar>
+    <atraso>151</atraso>
+  </Table>
+  <Table>
+    <CodEmp>1</CodEmp>
+    <CodCli>12630</CodCli>
+    <NumDoc>1264</NumDoc>
+    <NumPar>1</NumPar>
+    <Serie>PD </Serie>
+    <Status>A</Status>
+    <VlrDoc>104.9400</VlrDoc>
+    <Saldo>104.9400</Saldo>
+    <DtaVen>30/07/2015                    </DtaVen>
+    <DtaEmi>23/07/2015                    </DtaEmi>
+    <QtdPar>1</QtdPar>
+    <atraso>172</atraso>
+  </Table>
+  <Table>
+    <CodEmp>1</CodEmp>
+    <CodCli>12229</CodCli>
+    <NumDoc>1265</NumDoc>
+    <NumPar>1</NumPar>
+    <Serie>PD </Serie>
+    <Status>A</Status>
+    <VlrDoc>189.4200</VlrDoc>
+    <Saldo>189.4200</Saldo>
+    <DtaVen>30/07/2015                    </DtaVen>
+    <DtaEmi>23/07/2015                    </DtaEmi>
+    <QtdPar>1</QtdPar>
+    <atraso>172</atraso>
+  </Table>
+  <Table>
+    <CodEmp>1</CodEmp>
+    <CodCli>10386</CodCli>
+    <NumDoc>1266</NumDoc>
+    <NumPar>1</NumPar>
+    <Serie>PD </Serie>
+    <Status>A</Status>
+    <VlrDoc>127.7300</VlrDoc>
+    <Saldo>127.7300</Saldo>
+    <DtaVen>30/07/2015                    </DtaVen>
+    <DtaEmi>23/07/2015                    </DtaEmi>
+    <QtdPar>1</QtdPar>
+    <atraso>172</atraso>
+  </Table>
+  <Table>
+    <CodEmp>1</CodEmp>
+    <CodCli>12359</CodCli>
+    <NumDoc>1267</NumDoc>
+    <NumPar>1</NumPar>
+    <Serie>PD </Serie>
+    <Status>A</Status>
+    <VlrDoc>119.0600</VlrDoc>
+    <Saldo>119.0600</Saldo>
+    <DtaVen>23/07/2015                    </DtaVen>
+    <DtaEmi>23/07/2015                    </DtaEmi>
+    <QtdPar>1</QtdPar>
+    <atraso>179</atraso>
+  </Table>
+  <Table>
+    <CodEmp>1</CodEmp>
+    <CodCli>12582</CodCli>
+    <NumDoc>1268</NumDoc>
+    <NumPar>1</NumPar>
+    <Serie>PD </Serie>
+    <Status>A</Status>
+    <VlrDoc>166.7200</VlrDoc>
+    <Saldo>166.7200</Saldo>
+    <DtaVen>30/07/2015                    </DtaVen>
+    <DtaEmi>23/07/2015                    </DtaEmi>
+    <QtdPar>1</QtdPar>
+    <atraso>172</atraso>
+  </Table>
+  <Table>
+    <CodEmp>1</CodEmp>
+    <CodCli>69375</CodCli>
+    <NumDoc>1269</NumDoc>
+    <NumPar>1</NumPar>
+    <Serie>PD </Serie>
+    <Status>A</Status>
+    <VlrDoc>184.6700</VlrDoc>
+    <Saldo>184.6700</Saldo>
+    <DtaVen>13/08/2015                    </DtaVen>
+    <DtaEmi>23/07/2015                    </DtaEmi>
+    <QtdPar>1</QtdPar>
+    <atraso>158</atraso>
+  </Table>
+  <Table>
+    <CodEmp>1</CodEmp>
+    <CodCli>25964</CodCli>
+    <NumDoc>1312</NumDoc>
+    <NumPar>1</NumPar>
+    <Serie>PD </Serie>
+    <Status>A</Status>
+    <VlrDoc>66.0000</VlrDoc>
+    <Saldo>66.0000</Saldo>
+    <DtaVen>30/07/2015                    </DtaVen>
+    <DtaEmi>23/07/2015                    </DtaEmi>
+    <QtdPar>1</QtdPar>
+    <atraso>172</atraso>
+  </Table>
+  <Table>
+    <CodEmp>1</CodEmp>
+    <CodCli>25964</CodCli>
+    <NumDoc>1313</NumDoc>
+    <NumPar>1</NumPar>
+    <Serie>PD </Serie>
+    <Status>A</Status>
+    <VlrDoc>465.7700</VlrDoc>
+    <Saldo>465.7700</Saldo>
+    <DtaVen>30/07/2015                    </DtaVen>
+    <DtaEmi>23/07/2015                    </DtaEmi>
+    <QtdPar>1</QtdPar>
+    <atraso>172</atraso>
+  </Table>
+  <Table>
+    <CodEmp>1</CodEmp>
+    <CodCli>12841</CodCli>
+    <NumDoc>1314</NumDoc>
+    <NumPar>1</NumPar>
+    <Serie>PD </Serie>
+    <Status>A</Status>
+    <VlrDoc>117.9400</VlrDoc>
+    <Saldo>117.9400</Saldo>
+    <DtaVen>23/07/2015                    </DtaVen>
+    <DtaEmi>23/07/2015                    </DtaEmi>
+    <QtdPar>1</QtdPar>
+    <atraso>179</atraso>
+  </Table>
+  <Table>
+    <CodEmp>1</CodEmp>
+    <CodCli>86503</CodCli>
+    <NumDoc>1315</NumDoc>
+    <NumPar>1</NumPar>
+    <Serie>PD </Serie>
+    <Status>A</Status>
+    <VlrDoc>149.9400</VlrDoc>
+    <Saldo>149.9400</Saldo>
+    <DtaVen>13/08/2015                    </DtaVen>
+    <DtaEmi>23/07/2015                    </DtaEmi>
+    <QtdPar>1</QtdPar>
+    <atraso>158</atraso>
+  </Table>
+  <Table>
+    <CodEmp>1</CodEmp>
+    <CodCli>12659</CodCli>
+    <NumDoc>1316</NumDoc>
+    <NumPar>1</NumPar>
+    <Serie>PD </Serie>
+    <Status>A</Status>
+    <VlrDoc>310.2200</VlrDoc>
+    <Saldo>310.2200</Saldo>
+    <DtaVen>23/07/2015                    </DtaVen>
+    <DtaEmi>23/07/2015                    </DtaEmi>
+    <QtdPar>1</QtdPar>
+    <atraso>179</atraso>
+  </Table>
+  <Table>
+    <CodEmp>1</CodEmp>
+    <CodCli>12423</CodCli>
+    <NumDoc>1320</NumDoc>
+    <NumPar>1</NumPar>
+    <Serie>PD </Serie>
+    <Status>A</Status>
+    <VlrDoc>67.6800</VlrDoc>
+    <Saldo>67.6800</Saldo>
+    <DtaVen>30/07/2015                    </DtaVen>
+    <DtaEmi>23/07/2015                    </DtaEmi>
+    <QtdPar>1</QtdPar>
+    <atraso>172</atraso>
+  </Table>
+  <Table>
+    <CodEmp>1</CodEmp>
+    <CodCli>12671</CodCli>
+    <NumDoc>1341</NumDoc>
+    <NumPar>1</NumPar>
+    <Serie>PD </Serie>
+    <Status>A</Status>
+    <VlrDoc>100.5000</VlrDoc>
+    <Saldo>100.5000</Saldo>
+    <DtaVen>31/07/2015                    </DtaVen>
+    <DtaEmi>24/07/2015                    </DtaEmi>
+    <QtdPar>1</QtdPar>
+    <atraso>171</atraso>
+  </Table>
+  <Table>
+    <CodEmp>1</CodEmp>
+    <CodCli>12647</CodCli>
+    <NumDoc>1342</NumDoc>
+    <NumPar>1</NumPar>
+    <Serie>PD </Serie>
+    <Status>A</Status>
+    <VlrDoc>26.5300</VlrDoc>
+    <Saldo>26.5300</Saldo>
+    <DtaVen>31/07/2015                    </DtaVen>
+    <DtaEmi>24/07/2015                    </DtaEmi>
+    <QtdPar>1</QtdPar>
+    <atraso>171</atraso>
+  </Table>
+  <Table>
+    <CodEmp>1</CodEmp>
+    <CodCli>38491</CodCli>
+    <NumDoc>1343</NumDoc>
+    <NumPar>1</NumPar>
+    <Serie>PD </Serie>
+    <Status>A</Status>
+    <VlrDoc>140.2800</VlrDoc>
+    <Saldo>140.2800</Saldo>
+    <DtaVen>24/07/2015                    </DtaVen>
+    <DtaEmi>24/07/2015                    </DtaEmi>
+    <QtdPar>1</QtdPar>
+    <atraso>178</atraso>
+  </Table>
+  <Table>
+    <CodEmp>1</CodEmp>
+    <CodCli>12647</CodCli>
+    <NumDoc>1344</NumDoc>
+    <NumPar>1</NumPar>
+    <Serie>PD </Serie>
+    <Status>A</Status>
+    <VlrDoc>114.5600</VlrDoc>
+    <Saldo>114.5600</Saldo>
+    <DtaVen>31/07/2015                    </DtaVen>
+    <DtaEmi>24/07/2015                    </DtaEmi>
+    <QtdPar>1</QtdPar>
+    <atraso>171</atraso>
+  </Table>
+  <Table>
+    <CodEmp>1</CodEmp>
+    <CodCli>12649</CodCli>
+    <NumDoc>1345</NumDoc>
+    <NumPar>1</NumPar>
+    <Serie>PD </Serie>
+    <Status>A</Status>
+    <VlrDoc>155.7900</VlrDoc>
+    <Saldo>155.7900</Saldo>
+    <DtaVen>31/07/2015                    </DtaVen>
+    <DtaEmi>24/07/2015                    </DtaEmi>
+    <QtdPar>1</QtdPar>
+    <atraso>171</atraso>
+  </Table>
+  <Table>
+    <CodEmp>1</CodEmp>
+    <CodCli>40227</CodCli>
+    <NumDoc>1346</NumDoc>
+    <NumPar>1</NumPar>
+    <Serie>PD </Serie>
+    <Status>A</Status>
+    <VlrDoc>353.1300</VlrDoc>
+    <Saldo>353.1300</Saldo>
+    <DtaVen>31/07/2015                    </DtaVen>
+    <DtaEmi>24/07/2015                    </DtaEmi>
+    <QtdPar>1</QtdPar>
+    <atraso>171</atraso>
+  </Table>
+  <Table>
+    <CodEmp>1</CodEmp>
+    <CodCli>100546</CodCli>
+    <NumDoc>1347</NumDoc>
+    <NumPar>1</NumPar>
+    <Serie>PD </Serie>
+    <Status>A</Status>
+    <VlrDoc>96.1200</VlrDoc>
+    <Saldo>96.1200</Saldo>
+    <DtaVen>31/07/2015                    </DtaVen>
+    <DtaEmi>24/07/2015                    </DtaEmi>
+    <QtdPar>1</QtdPar>
+    <atraso>171</atraso>
+  </Table>
+  <Table>
+    <CodEmp>1</CodEmp>
+    <CodCli>38410</CodCli>
+    <NumDoc>1348</NumDoc>
+    <NumPar>1</NumPar>
+    <Serie>PD</Serie>
+    <Status>A</Status>
+    <VlrDoc>119.2400</VlrDoc>
+    <Saldo>119.2400</Saldo>
+    <DtaVen>14/08/2015                    </DtaVen>
+    <DtaEmi>24/07/2015                    </DtaEmi>
+    <QtdPar>1</QtdPar>
+    <atraso>157</atraso>
+  </Table>
+  <Table>
+    <CodEmp>1</CodEmp>
+    <CodCli>12902</CodCli>
+    <NumDoc>1349</NumDoc>
+    <NumPar>1</NumPar>
+    <Serie>PD </Serie>
+    <Status>A</Status>
+    <VlrDoc>263.2000</VlrDoc>
+    <Saldo>263.2000</Saldo>
+    <DtaVen>24/07/2015                    </DtaVen>
+    <DtaEmi>24/07/2015                    </DtaEmi>
+    <QtdPar>1</QtdPar>
+    <atraso>178</atraso>
+  </Table>
+  <Table>
+    <CodEmp>1</CodEmp>
+    <CodCli>100547</CodCli>
+    <NumDoc>1350</NumDoc>
+    <NumPar>1</NumPar>
+    <Serie>PD </Serie>
+    <Status>A</Status>
+    <VlrDoc>174.1900</VlrDoc>
+    <Saldo>174.1900</Saldo>
+    <DtaVen>31/07/2015                    </DtaVen>
+    <DtaEmi>24/07/2015                    </DtaEmi>
+    <QtdPar>1</QtdPar>
+    <atraso>171</atraso>
+  </Table>
+  <Table>
+    <CodEmp>1</CodEmp>
+    <CodCli>10179</CodCli>
+    <NumDoc>1351</NumDoc>
+    <NumPar>1</NumPar>
+    <Serie>PD </Serie>
+    <Status>A</Status>
+    <VlrDoc>103.3800</VlrDoc>
+    <Saldo>103.3800</Saldo>
+    <DtaVen>31/07/2015                    </DtaVen>
+    <DtaEmi>24/07/2015                    </DtaEmi>
+    <QtdPar>1</QtdPar>
+    <atraso>171</atraso>
+  </Table>
+</NewDataSet>

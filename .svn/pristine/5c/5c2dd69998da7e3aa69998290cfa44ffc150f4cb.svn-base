@@ -1,0 +1,110 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!--<%@ Register src="UserControls/menu.ascx" tagname="menu" tagprefix="uc1" %>-->
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+
+    <title>PRASIST Informática - Web Pedidos</title>
+    <link href="Styles/Site.css" rel="stylesheet" type="text/css" />    
+    <link href="Styles/dropdown.css" media="screen" rel="stylesheet" type="text/css" />
+    <link href="Styles/default.css" media="screen" rel="stylesheet" type="text/css" />
+    <meta name="viewport" content="width=device-width" />
+
+    <asp:ContentPlaceHolder ID="HeadContent" runat="server">
+    </asp:ContentPlaceHolder>
+    
+    <style type="text/css">
+        .style1
+        {
+            width: 83px;
+            
+        }
+        .style2
+        {
+            font-size: 11px;
+            font-weight: bold;
+            font-family: Arial, Tahoma, Helvetica, Verdana, sans-serif;
+            color: White;
+            height: 4px;
+        }
+    </style>
+    
+</head>
+<body>
+            
+    <form id="Form1" enctype="multipart/form-data" runat="server">
+    
+    <div class="page">
+        <div class="header">        
+            
+            <div class="loginDisplay">
+                
+                <table width="100%">
+                    <tr>
+                        <td rowspan="2" class="style1">
+                            
+                            <img src="imagens/Prasistlogo1.jpg" alt="PRASIST Informática" 
+                                style="height: 50px; width: 86px" />                                
+                            
+                        </td>
+                        <td align="center">
+                            <p class="titulo_branco">Web Pedidos</p>                            
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td align="center" class="style2">
+                            <asp:Label ID="LabelUsuario" runat="server" Text=""></asp:Label>&nbsp;-&nbsp;<asp:Label ID="LabelEmpresa" runat="server" Text=""></asp:Label>
+                            &nbsp;-&nbsp;<asp:LinkButton ID="LinkButtonSair" runat="server" onclick="LinkButtonSair_Click" CausesValidation="False"> SAIR </asp:LinkButton>
+                        </td>
+                    </tr>
+                
+                </table>
+                
+            </div>
+                                    
+            <ul id="nav" class="dropdown dropdown-horizontal">
+	                <li class="texto_atencao"><a href="Default.aspx">HOME</a></li>	                	                                    
+	                <li class="texto_atencao"><a href="Pedido.aspx">PEDIDOS</a></li>
+	                <li class="texto_atencao"><a href="Cliente.aspx">CLIENTES (Prospect)</a></li>
+	                
+	                <li class="texto_atencao"><a href="OpcoesRelPedidos.aspx">CONSULTA PEDIDOS</a>
+		                <ul>
+			                <li class="texto_atencao"><a href="RelPedido.aspx">POR NÚMERO</a></li>
+			                <li class="texto_atencao"><a href="RelPedidoCliente.aspx">POR CLIENTE / DATA DE EMISSÃO</a></li>			                
+		                </ul>
+	                </li>
+	                
+	                <li class="texto_atencao"><a href="RelProduto.aspx">CONSULTA PRODUTOS</a>                       
+                    </li>
+
+	                <li class="texto_atencao"><a href="RelFinanceiro.aspx">CONSULTA FINANCEIRO</a></li>
+                    <li class="texto_atencao"><a href="importacao.aspx">IMPORTAÇÃO OFFLINE</a></li>
+            </ul>
+            <br />   
+            <br />
+            
+        </div>
+        <p>&nbsp;</p>    
+        <div class="main">
+            <asp:ContentPlaceHolder ID="MainContent" runat="server"/>
+        </div>
+        
+        <div class="clear">
+        </div>
+    
+                
+    </div>
+   
+    <div class="footer">
+        
+    </div>
+            
+    </form>
+    
+</body>
+</html>

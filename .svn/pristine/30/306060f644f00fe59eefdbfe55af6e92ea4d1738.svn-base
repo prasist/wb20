@@ -1,0 +1,195 @@
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MasterPage.master" AutoEventWireup="true" CodeFile="RelPedido.aspx.cs" Inherits="RelPedido" %>
+
+<%@ Register assembly="AjaxControlToolkit" namespace="AjaxControlToolkit" tagprefix="cc1" %>
+
+
+ <asp:Content ID="Content1" ContentPlaceHolderID="HeadContent" Runat="Server">
+     <style type="text/css">
+         .style2
+         {
+             width: 697px;
+             color:Black;
+         }
+         .auto-style1 {
+             height: 22px;
+         }
+     </style>
+ </asp:Content>
+ 
+ <asp:Content ID="BodyContent" runat="server" ContentPlaceHolderID="MainContent">
+            <table>
+                <tr>
+                    <td class="texto">
+                    <p>Número Pedido :</p>
+                    </td>
+                    <td>
+                        <asp:TextBox ID="TextBoxNumeroPedido" CssClass="campos" runat="server" MaxLength="7"></asp:TextBox>
+                    </td>
+                    <td>
+                           
+                        <asp:Button ID="LinkButtonPesquisar" CssClass="texto" Height="35px" runat="server" Text="Pesquisar" 
+                        onclick="LinkButtonPesquisar_Click" Width="200px" />
+                    
+                        <asp:RegularExpressionValidator ID="RegularExpressionValidator1" runat="server" 
+                            ErrorMessage="Somente N&uacute;meros" 
+                            ControlToValidate="TextBoxNumeroPedido" Display="Dynamic" 
+                            ValidationExpression="\d*"></asp:RegularExpressionValidator>
+                        <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" 
+                            ControlToValidate="TextBoxNumeroPedido" Display="Dynamic" 
+                            ErrorMessage="Campo Obrigat&amp;oacute;rio"></asp:RequiredFieldValidator>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                    </td>
+                    <td>
+                    </td>
+                </tr>
+            </table>
+            <asp:Panel ID="PanelUnico" runat="server" Visible="false">
+                <table style="width: 779px">
+                    <tr>
+                        <td class="texto">N&uacute;mero:
+                        </td>
+                        <td>
+                            <asp:Label ID="LabelNumeroPedido" runat="server" Text="" class="texto"></asp:Label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="texto">
+                            Vendedor:
+                        </td>
+                        <td class="auto-style1" >
+                            <asp:Label ID="LabelVendedor" runat="server" Text="" class="texto"></asp:Label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="texto">
+                            Cliente:
+                        </td>
+                        <td >
+                            <asp:Label ID="LabelCliente" runat="server" Text="" class="texto"></asp:Label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="texto">
+                            Observa&ccedil;&atilde;o:
+                        </td>
+                        <td >
+                            <asp:Label ID="LabelObservacao" runat="server" Text="" class="texto"></asp:Label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="texto">
+                            Cond. Pagto:
+                        </td>
+                        <td >
+                            <asp:Label ID="LabelCondPagto" runat="server" Text="" class="texto"></asp:Label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="texto">Produtos:
+                        </td>
+                        <td >
+                            <asp:GridView ID="GridViewProdutos" runat="server" AutoGenerateColumns="False" 
+                                DataKeyNames="NumPed,Item,CodServMerc" CellPadding="4" 
+                                ForeColor="#333333" GridLines="None" Width="677px" CssClass="texto_grid" OnRowDataBound="GridViewProdutos_RowDataBound">
+                                <RowStyle BackColor="#EFF3FB" />
+                                <Columns>
+                                    <asp:BoundField DataField="NumPed" HeaderText="NumPed" 
+                                        ReadOnly="True" SortExpression="NumPed" Visible="false" />
+                                    <asp:BoundField DataField="Item" HeaderText="Item" SortExpression="Item" 
+                                        ReadOnly="True" />
+                                    <asp:BoundField DataField="CodServMerc" HeaderText="C&oacute;digo" 
+                                        SortExpression="CodServMerc" ReadOnly="True" 
+                                        ItemStyle-HorizontalAlign="Right" >
+                                        <ItemStyle HorizontalAlign="Right" />
+                                    </asp:BoundField>
+                                    <asp:BoundField DataField="DescricaoProduto" HeaderText="Descri&ccedil;&atilde;o" 
+                                        SortExpression="DescricaoProduto" ReadOnly="True"  />
+                                    <asp:BoundField DataField="Qtd" HeaderText="Qtd" 
+                                        SortExpression="Qtd" />
+                                
+                                    <asp:BoundField DataField="PrecoProduto" HeaderText="Preço Unit." 
+                                        SortExpression="PrecoProduto" DataFormatString="{0:0.00}" 
+                                        ItemStyle-HorizontalAlign="Right" >
+                                        
+                                        <ItemStyle HorizontalAlign="Right" />
+                                    </asp:BoundField>
+                                        
+                                    <asp:BoundField DataField="Desconto" HeaderText="% Desc." ItemStyle-HorizontalAlign="Right"
+                                    SortExpression="Desconto" >
+                                
+                                        <ItemStyle HorizontalAlign="Right" />
+                                    </asp:BoundField>
+                                
+                                    <asp:BoundField DataField="PrecoLiquido" HeaderText="Preço Unit. Liq." ItemStyle-HorizontalAlign="Right"
+                                    SortExpression="PrecoLiquido" DataFormatString="{0:0.00}" >
+                                        
+                                        <ItemStyle HorizontalAlign="Right" />
+                                    </asp:BoundField>
+                                        
+                                    <asp:BoundField DataField="Peso" HeaderText="Peso" ItemStyle-HorizontalAlign="Right"
+                                    SortExpression="Peso" DataFormatString="{0:0.00}" >
+                                        
+                                        <ItemStyle HorizontalAlign="Right" />
+                                    </asp:BoundField>                                    
+
+                                    <asp:BoundField DataField="Total" HeaderText="Total" 
+                                        SortExpression="Total" DataFormatString="{0:0.00}" 
+                                        ItemStyle-HorizontalAlign="Right" >    
+                                        
+                                        <ItemStyle HorizontalAlign="Right" />
+                                    </asp:BoundField>
+                                        
+                                </Columns>
+                                <FooterStyle BackColor="#507CD1" Font-Bold="True" ForeColor="White" />
+                                <PagerStyle BackColor="#2461BF" ForeColor="White" HorizontalAlign="Center" />
+                                <SelectedRowStyle BackColor="#D1DDF1" Font-Bold="True" ForeColor="#333333" />
+                                <HeaderStyle BackColor="#507CD1" Font-Bold="True" ForeColor="White" />
+                                <EditRowStyle BackColor="#2461BF" />
+                                <AlternatingRowStyle BackColor="White" />
+                            </asp:GridView>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="texto">&nbsp;</td>
+                        <td >
+                            <asp:Label ID="lbMsg" runat="server" CssClass="texto_erro" Text="Label"></asp:Label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="texto">SubTotal</td>
+                        <td>
+                            <asp:Label ID="LB_SubTotal" runat="server" class="texto_bold_gd"></asp:Label>
+                            &nbsp;&nbsp;Peso Total&nbsp;:&nbsp;
+                            <asp:Label ID="lbPesoTotal" runat="server" CssClass="texto_bold_gd" Text="Label"></asp:Label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="texto">
+                            % Desc. Pedido</td>
+                        <td >
+                            <asp:Label ID="LB_DescPed" runat="server" class="texto_bold_gd"></asp:Label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="texto">
+                            Total do Pedido: </td>
+                        <td >
+                            <asp:Label ID="LabelTotalPedido" runat="server" Text="" class="texto_bold_gd"></asp:Label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="texto">
+                            &nbsp;</td>
+                        <td >
+                            &nbsp;</td>
+                    </tr>
+                </table>
+            </asp:Panel>
+            <asp:Panel ID="PanelColecao" runat="server" Visible="false">
+            </asp:Panel>
+
+
+</asp:Content>

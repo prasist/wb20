@@ -1,0 +1,105 @@
+﻿<%@ Control Language="C#" AutoEventWireup="true" CodeFile="login.ascx.cs" Inherits="login" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<script language="javascript" type="text/javascript">
+</script>
+    
+<style type="text/css">
+    
+    .logar  
+    {
+    	/* "remédio" para o hack do IE */    
+        text-align:left; 
+        border: 1px solid #E7E5DC;
+        width:280px; 
+        height:180px; 
+        background-color: #fff;
+        margin: 20px auto 0px auto;          
+    }   
+    	
+    .texto  
+    { 
+    	font-size: 10px;    
+        font-family:Arial, Tahoma, Helvetica, Verdana, sans-serif; 
+        height:20px;
+    } 
+    	
+    #Password1 
+    {
+        width: 84px;
+    }
+    	
+</style>
+
+<div id="log" class="logar">
+<table style="width: 277px">
+    
+    <tr><td>&nbsp;</td></tr>
+    <tr>
+    
+        <td align="right">&nbsp;</td>
+    
+        <td align="right" class="texto">Empresa:</td>
+        <td>
+            <asp:TextBox ID="TBEmpresa" runat="server" ValidationGroup="Login" 
+                CssClass="texto" Width="84px" ontextchanged="TBEmpresa_TextChanged"></asp:TextBox>
+        </td>
+        
+        <td>
+            <asp:RegularExpressionValidator ID="RegularExpressionValidatorEmpresa" runat="server" 
+                ErrorMessage="Somente n&uacute;meros" ControlToValidate="TBEmpresa" 
+                ValidationExpression="^[0-9]+$" Display="Dynamic"></asp:RegularExpressionValidator>
+            <asp:RequiredFieldValidator ID="RequiredFieldValidatorEmpresa" runat="server" 
+                ErrorMessage="Campo Obrigat&oacute;rio" ControlToValidate="TBEmpresa" 
+                ValidationGroup="Login" Display="Dynamic"></asp:RequiredFieldValidator>
+        </td>
+        
+        <td>
+            &nbsp;</td>
+    </tr>
+    
+    <tr>
+        <td align="right">&nbsp;</td>
+        <td align="right" class="texto">Usu&aacute;rio:</td>
+        <td>
+            <asp:TextBox ID="TBUsuario" runat="server" ValidationGroup="Login" CssClass="texto" Width="84px"></asp:TextBox>
+        </td>
+        <td>
+            <asp:RegularExpressionValidator ID="RegularExpressionValidatorUsuario" runat="server" 
+                ErrorMessage="Somente n&uacute;meros" ValidationExpression="^[0-9]+$" 
+                ControlToValidate="TBUsuario" Display="Dynamic"></asp:RegularExpressionValidator>
+            <asp:RequiredFieldValidator ID="RequiredFieldValidatorUsuario" runat="server" 
+                ErrorMessage="Campo Obrigat&oacute;rio" ControlToValidate="TBUsuario" 
+                ValidationGroup="Login" Display="Dynamic"></asp:RequiredFieldValidator>
+        </td>
+        <td>
+            &nbsp;</td>
+    </tr>
+    <tr>
+        <td align="right">&nbsp;</td>
+        <td align="right" class="texto">Senha:</td>
+        <td>
+            <input id="Password1" type="password" runat="server" class="texto" width="84px"/>
+        </td>
+        <td>
+            <asp:RequiredFieldValidator ID="RequiredFieldValidatorSenha" runat="server" 
+                ErrorMessage="Campo Obrigat&oacute;rio" ControlToValidate="Password1" 
+                ValidationGroup="Login" Display="Dynamic"></asp:RequiredFieldValidator>
+        </td>
+        <td>
+            &nbsp;</td>
+    </tr>
+    <tr>
+    <td align="right">&nbsp;</td>
+    <td align="right" class="texto">&nbsp;</td>
+        <td align="left" class="texto">
+        
+        <asp:Button ID="LinkButtonOk" runat="server"  CssClass="texto" onclick="BU_Ok_Click1" ValidationGroup="Login" Text="OK" Width="100px" Height="40px" />
+            
+        </td>
+    <td align="right">&nbsp;</td>
+    <td align="right">&nbsp;</td>
+        
+    </tr>
+</table>
+</div>

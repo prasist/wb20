@@ -1,0 +1,194 @@
+﻿<%@ Page Title="Importação Arquivos" Language="C#" MasterPageFile="~/MasterPage.master" AutoEventWireup="true"
+    CodeFile="importacao.aspx.cs" Inherits="importacao" %>
+
+<%@ Register Assembly="System.Web.DynamicData, Version=3.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+    Namespace="System.Web.DynamicData" TagPrefix="cc1" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="HeadContent" runat="Server">
+
+    <script type="text/javascript" src="admin.js"></script>
+
+    <style type="text/css">
+        .auto-style1 {
+            font-size: 11px;
+            font-family: Arial, Tahoma, Helvetica, Verdana, sans-serif;
+            margin-left: 0px;
+            height: 22px;
+            width: 556px;
+        }
+        .auto-style2 {
+            height: 19px;
+        }
+    </style>
+
+    </asp:Content>
+    <asp:Content ID="BodyContent" runat="server" ContentPlaceHolderID="MainContent">
+    
+    <asp:ScriptManager ID="ScriptManager1" runat="server" OnInit="ScriptManager1_Init">
+    </asp:ScriptManager>    
+
+        <table cellpadding="0" cellspacing="0">
+            <tr>
+                <td>
+                    <asp:LinkButton ID="buAba1" runat="server" Height="35px" CssClass="aba_imp_1" EnableTheming="True" Width="111px" OnClick="buAba1_Click"></asp:LinkButton>                
+                </td>
+                <td>
+                    <asp:LinkButton ID="buAba2" runat="server" CssClass="aba_imp_4" Height="35px" Width="630px" OnClick="buAba2_Click"></asp:LinkButton>
+                </td>
+            </tr>
+
+            </table>
+    
+    <div>
+    
+        <asp:UpdatePanel ID="pnImportacao" runat="server">
+            <Triggers>
+                <asp:PostBackTrigger ControlID="buImportar" />
+            </Triggers>
+                <ContentTemplate> 
+                     <table style="width: 783px" border="0" cellpadding="2" cellspacing="1" 
+                            class="bordas" frame="border">
+                            
+                            <tr>
+                                <td class="texto">
+                                    Importação Offline
+                                </td>
+                                <td class="texto">                
+                                    <asp:FileUpload ID="FileUpload1" runat="server" Width="238px" CssClass="texto" Height="35px" 
+                                        ToolTip="Selecione a Planilha e depois clique em importar."  />
+                                                                        
+                                    <asp:Button ID="buImportar" CssClass="texto" runat="server" onclick="buImportar_Click" 
+                                        Text="Importar" Height="35px" />
+                                    <br />
+                                    
+                                </td>
+                            </tr>
+
+                         <tr>
+                             <td></td>
+                             <td>
+                                 <asp:Label ID="Label1" runat="server"></asp:Label>
+                                 <asp:Label ID="Label2" runat="server" Visible="False"></asp:Label>
+                             </td>                             
+                         </tr>
+
+                         <tr>
+                             <td colspan="2" style="text-align: center">
+                                 <asp:ImageButton ID="buDownload" runat="server" Height="128px" ImageUrl="~/icones/full-basket-icon.png" OnClick="buDownload_Click" PostBackUrl="~/importacao.aspx" Visible="False" Width="128px" />
+                                 <br />
+                                 <asp:Label ID="lbTexto" runat="server" CssClass="texto_bold_gd"
+                                     Text="Arquivo recebido, clique na imagem acima para gravar os pedidos e concluir o processo." Visible="False"></asp:Label>
+                             </td>
+                         </tr>
+                         
+
+
+                       </table>
+                </ContentTemplate>
+            
+        </asp:UpdatePanel>
+
+
+        <asp:UpdatePanel ID="pnLog" runat="server">
+            <Triggers>
+                <asp:PostBackTrigger ControlID="buAba2" />
+            </Triggers>
+            <ContentTemplate>                 
+                <table style="width: 783px" border="0" cellpadding="2" cellspacing="1" 
+                            class="bordas" frame="border">
+                    <tr>
+                        <td class="texto">Data Importação</td>
+                        <td class="auto-style1">
+                            <asp:TextBox ID="tbDataEmissaoInicial" runat="server" CssClass="campos" MaxLength="10" onkeyup="Mascara('DATA',this,event);" Width="79px"></asp:TextBox>
+                            Até
+                            <asp:TextBox ID="tbDataEmissaoFinal" runat="server" CssClass="campos" MaxLength="10" onkeyup="Mascara('DATA',this,event);" Width="79px"></asp:TextBox>
+                            <asp:Button ID="LinkButtonPesquisar" runat="server" CssClass="texto" Height="35px" onclick="LinkButtonPesquisar_Click" Text="Pesquisar" />
+                        </td>
+                        
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+
+
+                           <asp:GridView ID="gdLog" runat="server" AutoGenerateColumns="False" 
+                                                        CellPadding="4" CssClass="texto_grid" ForeColor="#333333" GridLines="None" 
+                                                        Width="774px" EnableModelValidation="True" OnSelectedIndexChanged="gdLog_SelectedIndexChanged" OnRowDataBound="gdLog_RowDataBound">
+                                                
+                            <RowStyle BackColor="#EFF3FB" />
+
+                            <Columns>
+
+                             <asp:TemplateField HeaderText="N. Pedido">
+                                <ItemTemplate>
+                            
+                                    <asp:HyperLink                                 
+                                        ID="HyperLink2"                                 
+                                        runat="server"                                 
+                                        NavigateUrl='<%# String.Format("RelPedido.aspx?id={0}", Eval("NUMPED")) %>' 
+                                        onclick="javascript:w= window.open(this.href,'Pedido','toolbar=0,resizable=0');return false;"><%# Eval("NUMPED")%></asp:HyperLink>
+
+                                </ItemTemplate>
+
+                                <HeaderStyle />
+                                <ItemStyle Wrap="False" />
+                            </asp:TemplateField>
+
+
+                            <asp:BoundField DataField="CODCLI" HeaderText="Cliente" ItemStyle-HorizontalAlign="Left" SortExpression="CODCLI">
+                                <ItemStyle HorizontalAlign="Left" Width="200" />
+                            </asp:BoundField>
+
+                            <asp:BoundField DataField="DATA" HeaderText="Data" ItemStyle-HorizontalAlign="Left" SortExpression="DATA">
+                                <ItemStyle HorizontalAlign="Left" />
+                            </asp:BoundField>
+
+                            <asp:BoundField DataField="VALOR" HeaderText="Valor" DataFormatString="{0:c}" ItemStyle-HorizontalAlign="Left" SortExpression="VALOR">
+                                <ItemStyle HorizontalAlign="Right" />
+                            </asp:BoundField>
+
+
+                            <asp:BoundField DataField="MSG"  HeaderText="Mensagem" ItemStyle-Wrap="true" ItemStyle-VerticalAlign="Top" SortExpression="MSG">
+                                <ItemStyle VerticalAlign="Top"  Width="250" />
+                            </asp:BoundField>
+
+                            <asp:BoundField DataField="STATUS" HeaderText="Status" ItemStyle-HorizontalAlign="Left" SortExpression="STATUS">
+                                <ItemStyle HorizontalAlign="Left" />
+                            </asp:BoundField>
+
+                            <asp:TemplateField ShowHeader="False">
+                                <ItemTemplate>
+                            
+                                    <asp:HyperLink                                 
+                                        ID="HyperLink1"                                 
+                                        runat="server" 
+                                        NavigateUrl='<%# String.Format("itens_n_atendidos.aspx?id={0}", Eval("NUMPED_LOG")) %>' 
+                                        onclick="javascript:w= window.open(this.href,'Itens','left=40,top=40,width=750,height=600,toolbar=0,resizable=0');return false;"><img src='icones/itens.png' border='0' alt='Itens não atendidos' width='60' height='60' /></asp:HyperLink>
+
+                                </ItemTemplate>
+
+                                <HeaderStyle VerticalAlign="Top" />
+                                <ItemStyle VerticalAlign="Top" Wrap="False" />
+                            </asp:TemplateField>
+                            </Columns>
+                            <FooterStyle BackColor="#507CD1" Font-Bold="True" ForeColor="White" />
+                                                        <PagerStyle BackColor="#2461BF" ForeColor="White" HorizontalAlign="Center" />
+                                                        <SelectedRowStyle BackColor="#D1DDF1" Font-Bold="True" ForeColor="#333333" />
+                                                        <HeaderStyle BackColor="#507CD1" Font-Bold="True" ForeColor="White" />
+                                                        <EditRowStyle BackColor="#2461BF" />
+                                                        <AlternatingRowStyle BackColor="White" />
+                        </asp:GridView>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="auto-style2">                            
+                            <strong>Total : </strong><asp:Label ID="lbTotal" runat="server" Text="0,00"></asp:Label>
+                        </td>
+                    </tr>
+                </table>
+
+            </ContentTemplate> 
+        </asp:UpdatePanel>
+    
+    </div>
+
+</asp:Content>
+        

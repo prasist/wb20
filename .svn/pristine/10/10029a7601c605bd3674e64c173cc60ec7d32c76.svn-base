@@ -1,0 +1,70 @@
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MasterPage.master" AutoEventWireup="true" CodeFile="Default.aspx.cs" Inherits="_Default" %>
+
+<asp:Content ID="Content1" ContentPlaceHolderID="HeadContent" Runat="Server">
+   
+    <style type="text/css">
+        .auto-style1 {
+            height: 18px;
+        }
+        .auto-style2 {
+            height: 49px;
+        }
+    </style>
+   
+</asp:Content>
+
+<asp:Content ID="BodyContent" runat="server" ContentPlaceHolderID="MainContent">
+    <p>&nbsp;</p>
+    <asp:Panel ID="pnl1" runat="server">
+    <table class="bordas">
+        <tr>
+            <td>&nbsp;</td>
+            <td align="right" class="texto">
+                Versão 1.1.5</td>
+        </tr>
+        <tr>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td class="texto_bold_gd">
+                Mensagens</td>
+            <td class="auto-style2"></td>
+        </tr>
+        <tr>
+            <td class="texto">
+                <asp:Label ID="lbUltima" runat="server"></asp:Label>                                 
+            </td>
+        </tr>
+        <tr>
+            <td class="texto" colspan="2">     
+                Pedido(s) no dia :
+                <asp:Label ID="lbPedidos" runat="server" CssClass="texto_bold_gd" Text="Label"></asp:Label>
+            </td>
+        </tr>
+        <tr>
+            <td class="texto">
+                Peso Total :
+                <asp:Label ID="lbPeso" runat="server" CssClass="texto_bold_gd" Text="Label"></asp:Label>
+                </td>
+            <td class="auto-style1"></td>
+        </tr>
+        <tr>
+            <td colspan="2" class="auto-style2">
+                <asp:Button ID="buValidar" runat="server" Text="Verificar Pedidos Pendentes do Offline" Width="313px" CssClass="botao" Height="45px" OnClick="buValidar_Click" />
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <asp:Label ID="lbPedidosMsg" runat="server"></asp:Label>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2" style="text-align: center"><a href="instalar.aspx" target="_blank">INSTALAÇÃO / ATUALIZAÇÃO DO SISTEMA OFFLINE</a> (Versão 3.6.0)</td>
+        </tr>
+    </table>
+    </asp:Panel>
+
+    <br />    
+    <p></p>
+</asp:Content>

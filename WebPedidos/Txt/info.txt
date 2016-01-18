@@ -1,0 +1,15 @@
+Camada de acesso a base de dados utilizando LINQ to SQL Classes
+No arquivo web.config tem as configurações de conexão, na seção "connectionStrings" existem três exemplos 
+funcionais de strings de conexão; 
+No arquivo Dataclasses.dbml deverá ser alterada também a connectionstring para que o link "ache" a 
+base mapeada, bem como no DataClasses.designer.cs
+
+Foram criadas algumas classes com nomenclatura "[NomeEntidade]Resumido.cs" a fim de diminuir o tamanho dos objetos trafegados, funcionam como os beans em java
+As classes com nomenclatura "Classe[NomeEntidade].cs" devem conter as regras negociais, bem como as chamadas de acesso a banco de dados e funções de consultas.
+
+Foram criados dois UserControls, Menu e Login, a fim de componentizar essas duas funcionalidades.
+
+Foi criada uma masterpage que contém todos os componentes e informações que são comuns a todas as páginas, como menus, cabeçalho e rodapé.
+
+A classe Krypto.cs é equivalente a classe Krypto existente no Sigma, com os mesmos métodos de encriptação e decriptação.
+

@@ -1,0 +1,44 @@
+<NewDataSet>
+  <Table>
+    <CodEmp>1</CodEmp>
+    <CodCli>100523</CodCli>
+    <NumDoc>1167</NumDoc>
+    <NumPar>1</NumPar>
+    <Serie>PD </Serie>
+    <Status>A</Status>
+    <VlrDoc>28.9800</VlrDoc>
+    <Saldo>28.9800</Saldo>
+    <DtaVen>22/07/2015                    </DtaVen>
+    <DtaEmi>22/07/2015                    </DtaEmi>
+    <QtdPar>1</QtdPar>
+    <atraso>180</atraso>
+  </Table>
+  <Table>
+    <CodEmp>1</CodEmp>
+    <CodCli>60000</CodCli>
+    <NumDoc>1168</NumDoc>
+    <NumPar>1</NumPar>
+    <Serie>PD </Serie>
+    <Status>A</Status>
+    <VlrDoc>74.2500</VlrDoc>
+    <Saldo>74.2500</Saldo>
+    <DtaVen>29/07/2015                    </DtaVen>
+    <DtaEmi>22/07/2015                    </DtaEmi>
+    <QtdPar>1</QtdPar>
+    <atraso>173</atraso>
+  </Table>
+  <Table>
+    <CodEmp>1</CodEmp>
+    <CodCli>50015</CodCli>
+    <NumDoc>1310</NumDoc>
+    <NumPar>1</NumPar>
+    <Serie>PD </Serie>
+    <Status>A</Status>
+    <VlrDoc>111.0900</VlrDoc>
+    <Saldo>111.0900</Saldo>
+    <DtaVen>30/07/2015                    </DtaVen>
+    <DtaEmi>23/07/2015                    </DtaEmi>
+    <QtdPar>1</QtdPar>
+    <atraso>172</atraso>
+  </Table>
+</NewDataSet>

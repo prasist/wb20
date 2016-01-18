@@ -1,0 +1,179 @@
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MasterPage.master" AutoEventWireup="true" CodeFile="RelPedidoCliente.aspx.cs" Inherits="RelPedidoCliente" %>
+
+<%@ Register assembly="AjaxControlToolkit" namespace="AjaxControlToolkit" tagprefix="cc1" %>
+
+
+ <asp:Content ID="Content1" ContentPlaceHolderID="HeadContent" Runat="Server">
+ 
+     <script type="text/javascript" src="admin.js"></script>
+ 
+     <style type="text/css">
+         .style5
+         {
+             color: #0033CC;
+         }
+         .auto-style2 {
+             font-size: 11px;
+             font-weight: bold;
+             font-family: Arial, Tahoma, Helvetica, Verdana, sans-serif;
+             width: 80px;
+         }
+         .auto-style3 {
+             font-size: 11px;
+             font-family: Arial, Tahoma, Helvetica, Verdana, sans-serif;
+             margin-left: 0px;
+             height: 22px;
+             width: 80px;
+         }
+     </style>
+ 
+ </asp:Content>
+ 
+ 
+ <asp:Content ID="BodyContent" runat="server" ContentPlaceHolderID="MainContent">
+            <table>
+                <tr>
+                    <td class="texto">
+                    <p>Cliente</p>
+                    </td>
+                    <td>
+                <asp:TextBox ID="tbCliente" runat="server" 
+                    ToolTip="(Digite o Código ou Razão Social ou Nome Fantasia do Cliente)" 
+                    Width="182px" Height="25px" CssClass="campos"></asp:TextBox>
+                <asp:Button CssClass="texto" Height="35px" Width="50px" ID="buPesquisar" 
+                    runat="server" Text="..." OnClick="buPesquisar_Click" />
+                &nbsp;<asp:DropDownList CssClass="campos" ID="DropDownListCliente" runat="server" AutoPostBack="True">
+                </asp:DropDownList>
+                    </td>                    
+                </tr>
+                <tr>
+                    <td class="texto">
+                        Data Emissão</td>
+                    <td class="texto">                        
+                        <asp:TextBox ID="tbDataEmissaoInicial" onkeyup="Mascara('DATA',this,event);" 
+                            CssClass="campos" runat="server" Width="79px" 
+                            MaxLength="10"></asp:TextBox>
+                        Até
+                        <asp:TextBox ID="tbDataEmissaoFinal" onkeyup="Mascara('DATA',this,event);" 
+                            CssClass="campos" runat="server" Width="79px" 
+                            MaxLength="10"></asp:TextBox>
+                    </td>
+                   
+                </tr>
+                
+                <tr>
+                    <td colspan="3" align="center">
+                           
+                        <asp:Button ID="LinkButtonPesquisar" CssClass="texto" Width="200" Height="35px" runat="server" Text="Pesquisar" 
+                        onclick="LinkButtonPesquisar_Click" />
+                    
+                    </td>
+                </tr>
+
+            </table>
+            <asp:Panel ID="PanelUnico" runat="server" Visible="false">
+                <table style="width: 782px">
+                    <tr>
+                        <td class="texto" colspan="2">
+                            <asp:GridView ID="GridViewProdutos" runat="server" AutoGenerateColumns="False" CellPadding="4" CssClass="texto_grid" ForeColor="#333333" GridLines="None" Width="100%" OnRowDataBound="GridViewProdutos_RowDataBound">
+                                <RowStyle BackColor="#EFF3FB" />
+                                <Columns>
+                                    <asp:TemplateField HeaderText="N. Pedido">
+                                        <ItemTemplate>
+                                            <asp:HyperLink ID="HyperLink2" runat="server" NavigateUrl='<%# String.Format("RelPedido.aspx?id={0}", Eval("NUMPED")) %>' onclick="javascript:w= window.open(this.href,'Pedido','toolbar=0,resizable=0');return false;"><%# Eval("NUMPED")%></asp:HyperLink>
+                                        </ItemTemplate>
+                                        <HeaderStyle />
+                                        <ItemStyle Wrap="False" />
+                                    </asp:TemplateField>
+                                    <asp:BoundField DataField="RAZSOC" HeaderText="Cliente" ReadOnly="True" SortExpression="Item" />
+                                    <asp:BoundField DataField="DTAEMI" DataFormatString="{0: dd/MM/yyyy}" HeaderText="Data Emissão" ItemStyle-HorizontalAlign="Right" ReadOnly="True" SortExpression="DTAEMI">
+                                    <ItemStyle HorizontalAlign="Right" />
+                                    </asp:BoundField>
+                                    <asp:BoundField DataField="SITPED" HeaderText="St. Pedido" ReadOnly="True" SortExpression="SITPED" />
+                                    <asp:BoundField DataField="PesoBruto" DataFormatString="{0:0.00}" HeaderText="Peso" ItemStyle-HorizontalAlign="Right" SortExpression="PesoBruto">
+                                    <ItemStyle HorizontalAlign="Right" />
+                                    </asp:BoundField>
+                                    <asp:BoundField DataField="VLRTOT" DataFormatString="{0:0.00}" HeaderText="Valor Pedido" ItemStyle-HorizontalAlign="Right" SortExpression="VLRTOT">
+                                    <ItemStyle HorizontalAlign="Right" />
+                                    </asp:BoundField>
+                                    <asp:BoundField DataField="StatusPedido" HeaderText="St. Financ." ReadOnly="True" SortExpression="StatusPedido" />
+                                    <asp:BoundField DataField="STATUSCOMERCIAL" HeaderText="St. Comercial" ReadOnly="True" SortExpression="STATUSCOMERCIAL" />
+                                    <asp:BoundField DataField="Nome" HeaderText="Transportadora" ReadOnly="True" SortExpression="Nome" />
+                                    <asp:BoundField DataField="Fone" HeaderText="Telefone" ReadOnly="True" SortExpression="Fone" />
+                                    <asp:BoundField DataField="NUMPED" ReadOnly="True" />
+                                </Columns>
+                                <FooterStyle BackColor="#507CD1" Font-Bold="True" ForeColor="White" />
+                                <PagerStyle BackColor="#2461BF" ForeColor="White" HorizontalAlign="Center" />
+                                <SelectedRowStyle BackColor="#D1DDF1" Font-Bold="True" ForeColor="#333333" />
+                                <HeaderStyle BackColor="#507CD1" Font-Bold="True" ForeColor="White" />
+                                <EditRowStyle BackColor="#2461BF" />
+                                <AlternatingRowStyle BackColor="White" />
+                            </asp:GridView>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td class="auto-style2">
+                            Peso Total</td>
+                        <td>
+                            <asp:Label ID="lbPesoTotal" runat="server" CssClass="texto_bold_gd"></asp:Label>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td class="auto-style2">
+                            Total</td>
+                        <td>
+                            <asp:Label ID="LabelTotalPedido" runat="server" CssClass="texto_bold_gd"></asp:Label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="auto-style3">
+                            &nbsp;</td>
+                        <td>
+                            &nbsp;</td>
+                    </tr>
+                    <tr class="bordas">
+                        <td class="texto" colspan="2">
+                            <b>Legendas Pedido</b>&nbsp;: <span class="style5"><b>
+                            <br />
+                            ABE</b> - Aberto, <b>EXE</b> - Executado (Faturado), <b>BAI</b> - Baixado, <strong>PAR</strong> - Parcial</span></td>
+                    </tr>
+                    <tr class="bordas">
+                        <td class="texto" colspan="2">
+                            <b>Legendas Financeiro </b>:<br />
+                            <span class="style5"><b>BD</b> - Bloqueado por Débitos, <b>BL</b> - Bloqueado 
+                            por Limite Excedido, <b>BI</b> - Bloqueado por Inadimplencia, <b>DVT</b> - Houve 
+                            Devolução Total, <b>
+                            <br />
+                            DVP</b> - Houve Devolução Parcial, <b>BPF</b> - Bloqueado por Politica de Frete,
+                            <b>BBF</b> - Bloqueado por Cliente Bloqueado no Financeiro, <b>
+                            <br />
+                            BCM</b> - Bloqueado por Cancelamento, <b>BOF</b> - Bloqueado Ocorrência 
+                            Financeira</span></td>
+                    </tr>
+                    <tr class="bordas">
+                        <td class="texto" colspan="2">
+                            <b>Legendas Comercial </b>:<br />
+                            <span class="style5"><b>BCP</b> - Bloqueado por Limite da Condição de Pagto. 
+                            Insuficiente, <b>NAT</b> - Pedido Não Atendido, <b>BVM</b> - Bloqueado por Valor 
+                            Mínimo, <b>
+                            <br />
+                            BMM</b> - Bloqueado por Margem Mínima, <b>BFP</b> - Bloqueado por Falta de Saldo 
+                            em um ou mais Produtos, <b>BPT</b> - Bloqueado Palm / Política, <b>
+                            <br />
+                            BOC</b> - Bloqueado Ocorrência Comercial,<b> BCF</b> - Bloqueado Conferência</span></td>
+                    </tr>
+                    <tr>
+                        <td class="auto-style3">
+                            &nbsp;</td>
+                        <td>
+                            &nbsp;</td>
+                    </tr>
+                </table>
+            </asp:Panel>
+            <asp:Panel ID="PanelColecao" runat="server" Visible="false">
+            </asp:Panel>
+
+
+</asp:Content>

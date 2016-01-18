@@ -1,0 +1,20 @@
+Release Alterações Web Pedidos
+
+
+A partir de 15/10/2012
+
+
+- Correção consulta produtos. Filtrar produtos com campo ENVIA_PALM desmarcado. Só
+envia mercadorias que não estejam marcadas para bloqueio.
+
+- Correção consulta pedidos. Adicionado filtro para trazer somente notas faturadas, estava trazendo também as canceladas e duplicava o 
+resultado na tela.
+
+
+18/10/2012
+
+- Correções técnicas; fechamento datasets abertos, remoção de informação Plataforma e última atualização da página default
+
+- Correção Pesquisa por código do cliente no pedido.
+
+- Não estava limpando o campo de pesquisa por cliente ao gravar ou clicar no botao limpar

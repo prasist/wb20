@@ -1,0 +1,54 @@
+WEB PEDIDOS
+
+PRÉ-REQUISITOS 
+
+	ESTRUTURA
+
+	- Windows Server com IIS (Internet Information Services) instalado;
+	- Browser (Internet Explorer, Firefox, ou similar);
+	- Modem / Roteador configurado com IP Fixo e com permissoes para acesso externo (http);
+	- Plataforma .Net Framework 3.5 com SP1 (ou superior).
+
+
+
+INSTALAÇÃO / CONFIGURAÇÃO (PRASIST)
+
+Configuração IIS
+
+	- Criar diretório Virtual;
+	- Configurar porta previamente liberada pelo administrador;
+	- Setar versão APS.NET no IIS.
+	- Configurar Mapeamento de Manipulador para arquivos XML.
+	
+
+SQL SERVER
+
+	- Rodar Script "instalacao_webPedidos.sql".
+
+SIGMA
+	
+	- Configurar Tipos de Movimentação Padrão (Vendas Estado e Fora do Estado);
+	- Configurar Tabela de Preço Padrão;
+	- Configurar os vendedores x usuarios para acesso Web;
+	- Configurar as condições de pagamento - "Envia Palm".
+
+
+
+Pastas
+
+	- Copiar arquivos .aspx	 na pasta inetpub/wwwroot/webpedidos;
+	- Dar as permissoes a pasta XML.
+	
+
+Configurações Web
+
+	- Configurar Web.ini.
+
+
+
+
+
+	
+
+
+

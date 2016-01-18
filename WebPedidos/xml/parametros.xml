@@ -1,0 +1,16 @@
+<NewDataSet>
+  <Table>
+    <CodEmp>1</CodEmp>
+    <CondicaoTabLivreWeb>1</CondicaoTabLivreWeb>
+    <ExibirRazaoSocial>1</ExibirRazaoSocial>
+    <PARA_UNIDADEVENDA>0</PARA_UNIDADEVENDA>
+    <IPExterno>http://192.168.0.177:4531</IPExterno>
+    <IPInterno>http://192.168.1.4:777</IPInterno>
+    <HostFtp>ftp.prasist.com.br</HostFtp>
+    <FtpUsuario>prasistc</FtpUsuario>
+    <FtpSenha>conquistado</FtpSenha>
+    <PastaServidor>NaoApagar</PastaServidor>
+    <LayoutCombo>4</LayoutCombo>
+    <MostraTodosProdutos>S</MostraTodosProdutos>
+  </Table>
+</NewDataSet>

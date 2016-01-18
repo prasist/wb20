@@ -1,0 +1,389 @@
+﻿<%@ Page Title="Cadastro de Clientes (Prospect)" Language="C#" MasterPageFile="~/MasterPage.master" AutoEventWireup="true"
+    CodeFile="Cliente.aspx.cs" Inherits="Cliente" %>
+
+<%@ Register Assembly="System.Web.DynamicData, Version=3.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+    Namespace="System.Web.DynamicData" TagPrefix="cc1" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="HeadContent" runat="Server">
+
+<script type="text/javascript" src="admin.js"></script>
+
+    <style type="text/css">
+        .auto-style1 {
+            color: #FF3300;
+        }
+    </style>
+
+</asp:Content>
+<asp:Content ID="BodyContent" runat="server" ContentPlaceHolderID="MainContent">
+    <asp:ScriptManager ID="ScriptManager1" runat="server" OnInit="ScriptManager1_Init">
+    </asp:ScriptManager>
+    <table>
+        
+        <tr>
+            <td class="texto">
+                <span class="auto-style1">* </span>Tipo
+            </td>
+            <td class="texto">
+                
+                <asp:RadioButton GroupName="Tipo" ID="opFisica"   runat="server" Text="Física" 
+                    CssClass="texto" oncheckedchanged="opFisica_CheckedChanged" 
+                    AutoPostBack="True" />
+                <asp:RadioButton GroupName="Tipo" ID="opJuridica" runat="server" 
+                    Text="Juridica" CssClass="texto" oncheckedchanged="opJuridica_CheckedChanged" 
+                    AutoPostBack="True" />
+                
+                <asp:TextBox ID="tbTipoCliente" runat="server" CssClass="campos" Visible="false"></asp:TextBox>
+                
+                <asp:RequiredFieldValidator ID="tipocliente" runat="server" ControlToValidate="tbTipoCliente"
+                    ErrorMessage="Selecione o Tipo de Cliente" InitialValue=""></asp:RequiredFieldValidator>                                    
+                    
+            </td>
+            
+            <td class="texto">
+                
+                &nbsp;</td>
+        </tr>
+        
+        <tr>
+            <td class="texto">
+                <span class="auto-style1">* </span>
+                <asp:Label ID="lbNome" runat="server" Text="Razão Social"></asp:Label>
+            </td>
+            <td class="texto">
+                <asp:TextBox     ID="tbRazaoSocial" runat="server" Width="250px" MaxLength="50" CssClass="campos"></asp:TextBox>
+                
+                <asp:RequiredFieldValidator ID="Nome" runat="server" ControlToValidate="tbRazaoSocial"
+                    ErrorMessage="Campo Obrigatório" InitialValue=""></asp:RequiredFieldValidator>
+                    
+            </td>
+        </tr>
+
+        <tr>
+            <td class="texto">
+                <span class="auto-style1">* </span>Nome Fantasia
+            </td>
+            <td class="texto">
+                <asp:TextBox CssClass="campos" ID="tbNomeFantasia" runat="server" Width="250px" MaxLength="35"></asp:TextBox>
+                <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ControlToValidate="tbNomeFantasia"
+                    ErrorMessage="Campo Obrigatório" InitialValue=""></asp:RequiredFieldValidator>
+                    
+            </td>
+        </tr>
+                
+        <tr>
+            <td class="texto">
+                <span class="auto-style1">* </span>
+                <asp:Label ID="lbTipo" runat="server" Text="CNPJ"></asp:Label>
+            </td>
+            <td class="texto">
+                <!--onkeyup="Mascara('CNPJ',this,event);"-->
+                <asp:TextBox CssClass="campos" ID="tbCNPF" runat="server" Width="120px" MaxLength="18"></asp:TextBox>
+                <asp:TextBox CssClass="campos" ID="tbCPF" runat="server" Width="120px" MaxLength="18" Visible="false"></asp:TextBox>&nbsp;
+            </td>
+            
+            <td class="texto">
+                <span class="auto-style1">* </span>
+                <asp:Label ID="lbRG" runat="server" Text="Insc. Est."></asp:Label>
+            </td>
+            <td class="texto">
+                <asp:TextBox CssClass="campos" ID="tbRG" runat="server" Width="100px" MaxLength="15"></asp:TextBox>
+                <asp:RequiredFieldValidator ID="RequiredFieldValidator2" runat="server" ControlToValidate="tbRG"
+                    ErrorMessage="Campo Obrigatório" InitialValue=""></asp:RequiredFieldValidator>                
+            </td>
+            
+        </tr>
+                
+        <tr>
+            <td class="texto">
+                <span class="auto-style1">* </span>Endereço
+            </td>
+            <td class="texto">
+                <asp:TextBox CssClass="campos" ID="tbEndereco" runat="server" Width="250px" MaxLength="50"></asp:TextBox>&nbsp;
+                
+                <asp:RequiredFieldValidator ID="endereco" runat="server" ControlToValidate="tbEndereco"
+                    ErrorMessage="Campo Obrigatório" InitialValue=""></asp:RequiredFieldValidator>
+                    
+            </td>            
+            
+            <td class="texto">
+                <span class="auto-style1">* </span>Número
+            </td>
+            <td class="texto">
+                <asp:TextBox CssClass="campos" ID="tbNumero" runat="server" Width="100px" MaxLength="20"></asp:TextBox>
+                 <asp:RequiredFieldValidator ID="RequiredFieldValidator3" runat="server" ControlToValidate="tbNumero"
+                    ErrorMessage="Campo Obrigatório" InitialValue=""></asp:RequiredFieldValidator>    
+            </td>
+        </tr>
+               
+        <tr>
+            <td class="texto">
+                Complemento
+            </td>
+            <td class="texto">
+                <asp:TextBox CssClass="campos" ID="tbComplemento" runat="server" Width="250px" MaxLength="20"></asp:TextBox>
+                
+            </td>
+        </tr>
+        
+        <tr>
+            <td class="texto">
+                <span class="auto-style1">* </span>Bairro
+            </td>
+            <td class="texto">
+                <asp:TextBox CssClass="campos" ID="tbBairro" runat="server" Width="250px" MaxLength="30"></asp:TextBox>
+                 <asp:RequiredFieldValidator ID="RequiredFieldValidator5" runat="server" ControlToValidate="tbBairro"
+                    ErrorMessage="Campo Obrigatório" InitialValue=""></asp:RequiredFieldValidator>    
+            </td>
+        </tr>
+
+        <tr>
+            <td class="texto">
+                <span class="auto-style1">* </span>Cep
+            </td>
+            <td class="texto">
+                <asp:TextBox CssClass="campos" ID="tbCep" runat="server" Width="250px" MaxLength="8"></asp:TextBox>&nbsp;
+                       
+                        <asp:RequiredFieldValidator ID="RequiredFieldValidator13" runat="server" ControlToValidate="tbCep"
+                    ErrorMessage="Campo Obrigatório" InitialValue=""></asp:RequiredFieldValidator>          
+                            
+                <asp:RegularExpressionValidator ID="ValidaCep" runat="server" 
+                            ErrorMessage="Somente N&uacute;meros" 
+                            ControlToValidate="tbCep" Display="Dynamic" 
+                            ValidationExpression="\d*"></asp:RegularExpressionValidator>
+                            
+            </td>
+        </tr>
+
+        <tr>
+            <td class="texto">
+                <span class="auto-style1">* </span>Cidade
+            </td>
+            <td class="texto">
+                <asp:TextBox CssClass="campos" ID="tbCidade" runat="server" Width="175px" MaxLength="35"></asp:TextBox>
+                <asp:RequiredFieldValidator ID="RequiredFieldValidator6" runat="server" ControlToValidate="tbCidade"
+                    ErrorMessage="Campo Obrigatório" InitialValue=""></asp:RequiredFieldValidator>
+            </td>
+            
+            <td class="texto">
+                <span class="auto-style1">* </span>Estado
+            </td>
+            <td class="texto">
+                <asp:TextBox CssClass="campos" ID="tbEstado" runat="server" Width="30px" MaxLength="2"></asp:TextBox>
+                <asp:RequiredFieldValidator ID="RequiredFieldValidator7" runat="server" ControlToValidate="tbEstado"
+                    ErrorMessage="Campo Obrigatório" InitialValue=""></asp:RequiredFieldValidator>
+            </td>
+        </tr>
+
+        <tr>
+            <td class="texto">
+                <span class="auto-style1">* </span>Contato
+            </td>
+            <td class="texto">
+                <asp:TextBox CssClass="campos" ID="tbContato" runat="server" Width="250px" MaxLength="100"></asp:TextBox>
+                 <asp:RequiredFieldValidator ID="RequiredFieldValidator8" runat="server" ControlToValidate="tbContato"
+                    ErrorMessage="Campo Obrigatório" InitialValue=""></asp:RequiredFieldValidator>
+            </td>
+        </tr>
+        
+        <tr>
+            <td class="texto">
+                <span class="auto-style1">* </span>Telefone
+            </td>
+            <td class="texto">
+                <asp:TextBox CssClass="campos" ID="tbTelefone" runat="server" Width="100px" MaxLength="18"></asp:TextBox>&nbsp;
+                
+                <asp:RequiredFieldValidator ID="telefone" runat="server" ControlToValidate="tbTelefone"
+                    ErrorMessage="Campo Obrigatório" InitialValue=""></asp:RequiredFieldValidator>
+                    
+            </td>
+            
+            <td class="texto">
+                Ramal
+            </td>
+            <td class="texto">
+                <asp:TextBox CssClass="campos" ID="tbRamal" runat="server" Width="80px" MaxLength="4"></asp:TextBox>
+                
+            </td>
+        </tr>
+
+        <tr>
+            <td class="texto">
+                <span class="auto-style1">* </span>Fax
+            </td>
+            <td class="texto">
+                <asp:TextBox CssClass="campos" ID="tbFax" runat="server" Width="100px" MaxLength="18"></asp:TextBox>
+                
+                <asp:RequiredFieldValidator ID="RequiredFieldValidator10" runat="server" ControlToValidate="tbFax"
+                    ErrorMessage="Campo Obrigatório" InitialValue=""></asp:RequiredFieldValidator>   
+            </td>
+            
+            <td class="texto">
+                <span class="auto-style1">* </span>Celular
+            </td>
+            <td class="texto">
+                <asp:TextBox CssClass="campos" ID="tbCelular" runat="server" Width="100px" MaxLength="18"></asp:TextBox>
+                
+                <asp:RequiredFieldValidator ID="RequiredFieldValidator11" runat="server" ControlToValidate="tbCelular"
+                    ErrorMessage="Campo Obrigatório" InitialValue=""></asp:RequiredFieldValidator>   
+            </td>
+        </tr>
+        
+        <tr>
+            <td class="texto">
+                <span class="auto-style1">* </span>Email
+            </td>
+            <td class="texto">
+                <asp:TextBox CssClass="campos" ID="tbEmail" runat="server" Width="250px" MaxLength="60"></asp:TextBox>&nbsp;
+                
+                <asp:RegularExpressionValidator ID="RegularExpressionValidator1" runat="server" 
+                            ErrorMessage="Email inválido" 
+                            ControlToValidate="tbEmail" Display="Dynamic" 
+                            
+                    ValidationExpression="\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*"></asp:RegularExpressionValidator>
+                    
+                    <asp:RequiredFieldValidator ID="RequiredFieldValidator12" runat="server" ControlToValidate="tbEmail"
+                    ErrorMessage="Campo Obrigatório" InitialValue=""></asp:RequiredFieldValidator>
+                            
+            </td>
+        </tr>
+        
+        <tr>
+            <td class="texto">
+                Ref. Bancárias I</td>
+            <td class="texto">
+                <asp:TextBox CssClass="campos" ID="tbRefBanc" runat="server" Width="420px" 
+                    MaxLength="230"></asp:TextBox>
+                            
+            </td>
+        </tr>
+        
+        <tr>
+            <td class="texto">
+                Ref. Bancárias II</td>
+            <td class="texto">
+                <asp:TextBox CssClass="campos" ID="tbRefBanc2" runat="server" Width="420px" 
+                    MaxLength="230"></asp:TextBox>
+                            
+            </td>
+        </tr>
+        
+        <tr>
+            <td class="texto">
+                Ref. Bancárias III</td>
+            <td class="texto">
+                <asp:TextBox CssClass="campos" ID="tbRefBanc3" runat="server" Width="420px" 
+                    MaxLength="230"></asp:TextBox>
+                            
+            </td>
+        </tr>
+        
+        <tr>
+            <td class="texto">
+                Ref. Comerciais I</td>
+            <td class="texto">
+                <asp:TextBox CssClass="campos" ID="tbRefCom" runat="server" Width="420px" 
+                    MaxLength="230"></asp:TextBox>
+                            
+            </td>
+        </tr>
+        
+        <tr>
+            <td class="texto">
+                Ref. Comerciais II</td>
+            <td class="texto">
+                <asp:TextBox CssClass="campos" ID="tbRefCom2" runat="server" Width="420px" 
+                    MaxLength="230"></asp:TextBox>
+                            
+            </td>
+        </tr>
+        
+        <tr>
+            <td class="texto">
+                Ref. Comerciais III</td>
+            <td class="texto">
+                <asp:TextBox CssClass="campos" ID="tbRefCom3" runat="server" Width="420px" 
+                    MaxLength="230"></asp:TextBox>
+                            
+            </td>
+        </tr>
+        
+        <tr>
+            <td class="texto">
+                Ref. do Contador I</td>
+            <td class="texto">
+                <asp:TextBox CssClass="campos" ID="tbRefContador" runat="server" Width="420px" 
+                    MaxLength="230"></asp:TextBox>
+                            
+            </td>
+        </tr>
+        
+        <tr>
+            <td class="texto">
+                Ref. do Contador II</td>
+            <td class="texto">
+                <asp:TextBox CssClass="campos" ID="tbRefContador2" runat="server" Width="420px" 
+                    MaxLength="230"></asp:TextBox>
+                            
+            </td>
+        </tr>
+        
+        <tr>
+            <td class="texto">
+                Ref. do Contador III</td>
+            <td class="texto">
+                <asp:TextBox CssClass="campos" ID="tbRefContador3" runat="server" Width="420px" 
+                    MaxLength="230"></asp:TextBox>
+                            
+            </td>
+        </tr>
+        
+        <tr>
+            <td class="texto">
+                Observações I</td>
+            <td class="texto">
+                <asp:TextBox CssClass="campos" ID="tbObs" runat="server" Width="420px" 
+                    MaxLength="80"></asp:TextBox>            
+            </td>
+        </tr>
+
+        <tr>
+            <td class="texto">
+                Observações II</td>
+            <td class="texto">
+                <asp:TextBox CssClass="campos" ID="tbObs2" runat="server" Width="420px" 
+                    MaxLength="80"></asp:TextBox>            
+            </td>
+        </tr>
+
+        <tr>
+            <td class="texto">
+                Observações III</td>
+            <td class="texto">
+                <asp:TextBox CssClass="campos" ID="tbObs3" runat="server" Width="420px" 
+                    MaxLength="80"></asp:TextBox>            
+            </td>
+        </tr>
+        
+        <tr>
+            <td class="texto">
+                &nbsp;</td>
+            <td class="texto">
+                <span class="auto-style1">* Campos Obrigatórios</span></td>
+        </tr>
+        
+        <tr>
+            <td class="texto">
+            </td>
+            <td class="texto">
+                <asp:Button ID="ButtonGravar" runat="server" Height="35px" Text="Gravar" OnClick="ButtonGravar_Click"
+                    CssClass="texto" Width="80px" />
+                <asp:Button ID="ButtonLimpar" runat="server" Height="35px" OnClick="ButtonLimpar_Click" CausesValidation="False"
+                    Text="Limpar" CssClass="texto" Width="80px" />
+            </td>
+        </tr>
+        
+    </table>
+    
+</asp:Content>
+        
+        

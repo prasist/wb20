@@ -1,0 +1,217 @@
+﻿/*
+ * ULTIMA ALTERACAO : 24/09/2012 
+ * cmd.CommandTimeout = 3600;
+ * BDADOSWEB
+ * 
+ */
+
+using System;
+using System.Configuration;
+using System.Data;
+using System.Data.SqlClient;
+
+namespace WebPedidos.WSClasses
+{
+    public class ClasseBanco
+    {
+        SqlConnection _conexao_ativa;
+
+        public SqlConnection conexao_ativa
+        {
+            get { return _conexao_ativa; }
+            set { _conexao_ativa = value; }
+        }
+
+        string conexao = ConfigurationManager.ConnectionStrings["BDADOSConnectionString1"].ConnectionString;            
+        //Prasist- Integrated Security=True
+        //string conexao = "Data Source=SERVIDORWEB\\SIGMA;Initial Catalog=BDADOS;Min Pool Size=10;User Id=sa;Pwd=Prasistweb123;Max Pool Size=500;Connect Timeout=60";
+        //string conexao = "Data Source=SERVIDORWEB\\SIGMA;Initial Catalog=BDADOS;Min Pool Size=10;User Id=sa;Pwd=Prasistweb123;Max Pool Size=500;Connect Timeout=60";
+        
+        //Abrir o Banco de Dados
+        public SqlConnection AbrirBanco()
+        {
+            if (conexao_ativa == null)
+            {
+                SqlConnection db = new SqlConnection(conexao);
+                db.Open();
+                conexao_ativa = db;
+                return db;
+            }
+            else
+            {
+                return conexao_ativa;
+            }
+        }
+
+        //Fechar o Banco de Dados
+        public void FecharBanco(SqlConnection db)
+        {
+            //SqlConnection db
+            if (db.State == ConnectionState.Open)
+                db.Close();
+        }
+
+        //Execução de comando sql
+        public void ExecutarComando(string strQuery)
+        {
+            SqlConnection db = new SqlConnection();
+            try
+            {
+                db = AbrirBanco();
+                SqlCommand cmd = new SqlCommand();
+                cmd.CommandTimeout = 3600;
+                cmd.CommandText = strQuery.ToString();
+                cmd.CommandType = CommandType.Text;
+                cmd.Connection = db;
+                cmd.ExecuteNonQuery();
+
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+            finally
+            {
+                //FecharBanco(db);
+            }
+        }
+
+
+        public DataSet retornaQueryDataSet(string strQuery)
+        {
+            SqlConnection db = new SqlConnection();
+            try
+            {
+                db = AbrirBanco();
+
+                //Instância o sqlcommand com a query sql que será executada e a conexão.
+                SqlCommand comando = new SqlCommand(strQuery, db);
+                comando.CommandTimeout = 3600;
+
+                //Instância o sqldataAdapter.
+                
+                SqlDataAdapter adapter = new SqlDataAdapter(comando);
+
+                //Instância o dataSet de retorno.
+                DataSet dataSet = new DataSet();
+
+                //Atualiza o dataSet
+                adapter.Fill(dataSet);
+
+                //Retorna o dataSet com o resultado da query sql.
+                return dataSet;
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+
+        }
+
+
+        //Executa query no banco, retorna um "recordset"
+        public SqlDataReader Query(string strQuery)
+        {
+            SqlConnection db = new SqlConnection();
+            try
+            {
+                db = AbrirBanco();
+                SqlCommand cmd = new SqlCommand();
+                cmd.CommandTimeout = 3600;
+                cmd.CommandText = strQuery.ToString();
+                cmd.CommandType = CommandType.Text;
+                cmd.Connection = db;
+                return cmd.ExecuteReader();
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+            finally
+            {
+                //FecharBanco(db);
+            }
+        }
+
+        public int FU_Insert(string Tabela, string Campos, string Valores)
+        {
+            SqlConnection db = new SqlConnection();
+            try
+            {
+
+                string strSql = @"
+                INSERT INTO " + Tabela + "(" + Campos + ")" +
+                 " VALUES (" + Valores + ")";
+
+                db = AbrirBanco();
+                SqlCommand cmd      = new SqlCommand();
+                cmd.CommandTimeout  = 3600;
+                cmd.CommandText     = strSql.ToString();
+                cmd.CommandType     = CommandType.Text;
+                cmd.Connection      = db;
+
+                try
+                {
+                    return cmd.ExecuteNonQuery();
+
+                }
+                catch (Exception ex)
+                {
+                    throw (ex);
+                }
+
+            }
+
+            finally
+            {
+                //
+            }
+
+        }
+
+
+        public void FU_Update(string Tabela, string Valores, string Where)
+        {
+            try
+            {
+                var result = this.AbrirBanco();
+                string strWhere = "";
+
+                string strSql = @"
+                 UPDATE " + Tabela + " SET " + Valores + " WHERE 1=1 ";
+
+                if (Where != "")
+                {
+                    strWhere = " AND " + Where;
+                }
+
+                SqlCommand cmd = new SqlCommand(strSql + strWhere, result);
+
+                try
+                {
+                    cmd.ExecuteNonQuery();
+
+                }
+                catch (Exception ex)
+                {
+                    throw (ex);
+                }
+
+                if (result != null)
+                {
+                    result.Close();
+                }
+
+            }
+
+            finally
+            {
+                //
+            }
+
+        }
+
+    }
+
+}
+
